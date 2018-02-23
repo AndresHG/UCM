@@ -1,0 +1,927 @@
+package es.ucm.fdi.tp.pr5.common;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import javax.swing.BorderFactory;
+import javax.swing.BoxLayout;
+import javax.swing.DefaultComboBoxModel;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JComponent;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTable;
+import javax.swing.JTextArea;
+import javax.swing.SwingUtilities;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableCellRenderer;
+
+import es.ucm.fdi.tp.basecode.bgame.Utils;
+import es.ucm.fdi.tp.basecode.bgame.control.Controller;
+import es.ucm.fdi.tp.basecode.bgame.control.Player;
+import es.ucm.fdi.tp.basecode.bgame.model.Board;
+import es.ucm.fdi.tp.basecode.bgame.model.GameObserver;
+import es.ucm.fdi.tp.basecode.bgame.model.Observable;
+import es.ucm.fdi.tp.basecode.bgame.model.Piece;
+import es.ucm.fdi.tp.basecode.bgame.model.Game.State;
+import es.ucm.fdi.tp.basecode.bgame.model.GameError;
+import es.ucm.fdi.tp.pr5.icons.IconsDir;
+
+/**
+ * An abstract class representing the basic control components in a swing view
+ * for board games.
+ * 
+ * It create a {@link JFrame} whose content pane consists of a {@link JPanel}
+ * that uses {@link BorderLayout}. The {@link BorderLayout#CENTER} of this panel
+ * where the board component goes, and the {@link BorderLayout#LINE_END} is
+ * where the control panel goes.
+ * 
+ * By default the control panel includes several components. This behavior can
+ * be overridden by subclasses (see {@link #addToCtrlArea(JComponent)}, or they
+ * can simply add more component using {@link #addToCtrlArea(JComponent)}.
+ * 
+ * The board panel content should be set by subclasses, using the mehod
+ * {@link #setBoardArea(JComponent)}.
+ * 
+ * Subclasses must implement several abstract methods, for initializing the gui,
+ * getting notifications when they should be activated or deactivated, and they
+ * can use {@link #decideMakeManualMove(Player)} to notify the parent class that
+ * a move is ready for execution.
+ * 
+ */
+public abstract class SwingView extends JFrame implements GameObserver {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * Is used to compute the position where to place the window. It is usefull
+	 * when creating an instance for each player so we don't put them on on top
+	 * of the other.
+	 * 
+	 */
+	private static int offset = 0;
+
+	/**
+	 * The controller to which this view is connected, just to pass instructions
+	 * ot the game.
+	 */
+	protected Controller ctrl;
+
+	/**
+	 * The game to which this view is listening. Note that it is not of type
+	 * Game.
+	 */
+	protected Observable<GameObserver> game;
+
+	/**
+	 * The piece to which this view belong, it is {@code null} if it belongs to
+	 * all players.
+	 */
+	private Piece localPiece;
+
+	/**
+	 * The list of pieces involved in the game.
+	 */
+	private List<Piece> pieces;
+
+	/**
+	 * The piece who is currently playing
+	 */
+	private Piece turn;
+
+	/**
+	 * The board of the current game
+	 */
+	private Board board;
+
+	/**
+	 * A map that maps pieces to their corresponding colors.
+	 */
+	private Map<Piece, Color> pieceColors;
+
+	/**
+	 * A maps that maps players to their corresponding modes.
+	 */
+	private Map<Piece, PlayerMode> playerTypes;
+
+	/**
+	 * This is TableModel of the players info.
+	 */
+	private PlayerInfoTableModel playerInfoTable;
+
+	/**
+	 * The random player, as passed to the constructor.
+	 */
+	private Player randomPlayer;
+
+	/**
+	 * The AI player, as passed to the constructor.
+	 */
+	private Player aiPlayer;
+
+	/**
+	 * This is a flag that we turn on when the player with the current turn is
+	 * executing a move. We turn it off when the move completes. This is useful,
+	 * among others case, when an automatic mode is activated for the current
+	 * play to understand if we should do an automatic move in this turn or wait
+	 * for the next one.
+	 */
+	private boolean inMovExec;
+
+	/**
+	 * This value indicates if the game is in play or not.
+	 */
+	private boolean inPlay;
+
+	Iterator<Color> colorsIter;
+
+	// Some swing components, we need them as fields to be able to
+	// disable/enable them, etc.
+	//
+	private JPanel boardPanel;
+	private JPanel toolBarPanel;
+	private JComboBox<Piece> playerColorsCB;
+	private JComboBox<Piece> playerModesCB;
+	private JComboBox<PlayerMode> modesCB;
+	private JTextArea statusArea;
+	private JButton quitButton;
+	private JButton randomMoveButton;
+	private JButton aiMoveButton;
+	private JButton restartButton;
+
+	/**
+	 * An enum for the player's mode. We could also use the one defined in
+	 * Main.java, but I prefer to define a new one as it might be different from
+	 * the standard list of mode.
+	 *
+	 */
+	enum PlayerMode {
+		MANUAL("Manual"), RANDOM("Random"), AI("Intelegent");
+
+		private String name;
+
+		PlayerMode(String name) {
+			this.name = name;
+		}
+
+		@Override
+		public String toString() {
+			return name;
+		}
+	}
+
+	class PlayerInfoTableModel extends DefaultTableModel {
+
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
+
+		private String[] colNames;
+
+		PlayerInfoTableModel() {
+			this.colNames = new String[] { "Player", "Mode", "#Pieces" };
+		}
+
+		@Override
+		public String getColumnName(int col) {
+			return colNames[col];
+		}
+
+		@Override
+		public int getColumnCount() {
+			return colNames.length;
+		}
+
+		@Override
+		public int getRowCount() {
+			return pieces == null ? 0 : pieces.size();
+		}
+
+		@Override
+		public Object getValueAt(int rowIndex, int columnIndex) {
+			if (pieces == null) {
+				return null;
+			}
+
+			Piece p = pieces.get(rowIndex);
+			if (columnIndex == 0) {
+				return p;
+			} else if (columnIndex == 1) {
+				return playerTypes.get(p);
+			} else {
+				return board.getPieceCount(p);
+			}
+		}
+
+		public void refresh() {
+			fireTableDataChanged();
+		}
+
+	};
+
+	public SwingView(Observable<GameObserver> g, Controller c, Piece localPiece, Player randomPlayer, Player aiPlayer) {
+		this.ctrl = c;
+		this.game = g;
+		this.localPiece = localPiece;
+		this.pieceColors = new HashMap<Piece, Color>();
+		this.playerTypes = new HashMap<Piece, PlayerMode>();
+		this.randomPlayer = randomPlayer;
+		this.aiPlayer = aiPlayer;
+		this.inMovExec = false;
+		this.inPlay = false;
+		this.colorsIter = Utils.colorsGenerator();
+
+		SwingUtilities.invokeLater(new Runnable() {
+			@Override
+			public void run() {
+				game.addObserver(SwingView.this);
+			}
+		});
+
+		initGUI();
+	}
+
+	private void initGUI() {
+		this.setTitle("Board Games");
+		JPanel mainPanel = new JPanel(new BorderLayout());
+		this.setContentPane(mainPanel);
+
+		// board panel
+		boardPanel = new JPanel(new BorderLayout());
+
+		// tool bar panel
+		toolBarPanel = new JPanel();
+		toolBarPanel.setLayout(new BoxLayout(toolBarPanel, BoxLayout.Y_AXIS));
+
+		initCtrlPanel();
+		initBoardGui();
+
+		mainPanel.add(boardPanel, BorderLayout.CENTER);
+		mainPanel.add(toolBarPanel, BorderLayout.LINE_END);
+
+		this.addWindowListener(new WindowListener() {
+
+			@Override
+			public void windowClosing(WindowEvent e) {
+				quit();
+			}
+
+			@Override
+			public void windowOpened(WindowEvent e) {
+			}
+
+			@Override
+			public void windowIconified(WindowEvent e) {
+			}
+
+			@Override
+			public void windowDeiconified(WindowEvent e) {
+			}
+
+			@Override
+			public void windowDeactivated(WindowEvent e) {
+			}
+
+			@Override
+			public void windowClosed(WindowEvent e) {
+			}
+
+			@Override
+			public void windowActivated(WindowEvent e) {
+			}
+		});
+
+		this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+		int offset = getOffset();
+		setLocation(offset, offset);
+		this.pack();
+		this.setVisible(true);
+	}
+
+	/**
+	 * Returns the offset to be used when placing the JFrame. It is useful when
+	 * players are playing in several windows. It is synchronized, just in case
+	 * it is called from several threads.
+	 * 
+	 * @return An offset to be used when placing the JFrame.
+	 */
+	private static synchronized int getOffset() {
+		int currOffset = offset;
+		offset += 100;
+		return currOffset;
+	}
+
+	/**
+	 * Initializes the control panel with the different control components. It
+	 * simply calls some other methods to add corresponding components (see the
+	 * "<b>See Also</b>" section). It can be overridden to place different
+	 * things on the control panel.
+	 * 
+	 * @see addPlayerInfoTable()
+	 * @see addPlayerColorsCtrl();
+	 * @see addPlayerModesCtrl();
+	 * @see addAutoPlayerButtons();
+	 * @see addQuitButton();
+	 */
+	protected void initCtrlPanel() {
+		addStatusArea();
+		addPlayerInfoTable();
+		addPlayerColorsCtrl();
+		addPlayerModesCtrl();
+		addAutoPlayerButtons();
+		addQuitButton();
+	}
+
+	private void addStatusArea() {
+		JPanel p = new JPanel(new BorderLayout());
+		p.setBorder(BorderFactory.createTitledBorder("Status Messages"));
+
+		statusArea = new JTextArea(5, 10);
+		statusArea.setEditable(false);
+
+		JScrollPane statusAreaScroll = new JScrollPane(statusArea);
+		p.add(statusAreaScroll, BorderLayout.CENTER);
+		p.setPreferredSize(new Dimension(100, 150));
+		addToCtrlArea(p);
+	}
+
+	/**
+	 * Adds the Piece color chooser to the control panel.
+	 */
+	final protected void addPlayerColorsCtrl() {
+		JPanel panel = new JPanel(new FlowLayout(FlowLayout.LEFT));
+		panel.setBorder(BorderFactory.createTitledBorder("Piece Colors"));
+		playerColorsCB = new JComboBox<Piece>();
+		JButton setColorButton = new JButton("Choose Color");
+
+		setColorButton.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Piece p = (Piece) playerColorsCB.getSelectedItem();
+				ColorChooser c = new ColorChooser(new JFrame(), "Select Piece Color", pieceColors.get(p));
+				if (c.getColor() != null) {
+					pieceColors.put(p, c.getColor());
+					repaint();
+				}
+			}
+		});
+		panel.add(playerColorsCB);
+		panel.add(setColorButton);
+		addToCtrlArea(panel);
+	}
+
+	/**
+	 * 
+	 */
+	final protected void addPlayerModesCtrl() {
+
+		// if there are no players except the manual one we don't add anything.
+		if (randomPlayer == null && aiPlayer == null) {
+			return;
+		}
+
+		JPanel panel = new JPanel(new FlowLayout(FlowLayout.LEFT));
+		panel.setBorder(BorderFactory.createTitledBorder("Player Modes"));
+
+		modesCB = new JComboBox<PlayerMode>();
+		modesCB.addItem(PlayerMode.MANUAL);
+
+		if (randomPlayer != null) {
+			modesCB.addItem(PlayerMode.RANDOM);
+		}
+		if (aiPlayer != null) {
+			modesCB.addItem(PlayerMode.AI);
+		}
+
+		playerModesCB = new JComboBox<Piece>(new DefaultComboBoxModel<Piece>() {
+			/**
+			 * 
+			 */
+			private static final long serialVersionUID = 1L;
+
+			@Override
+			public void setSelectedItem(Object o) {
+				super.setSelectedItem(o);
+				if (playerTypes.get(o) != PlayerMode.MANUAL) {
+					modesCB.setSelectedItem(PlayerMode.AI);
+				} else {
+					modesCB.setSelectedItem(PlayerMode.MANUAL);
+				}
+			}
+		});
+
+		JButton setModeButton = new JButton("Set");
+		setModeButton.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Piece p = (Piece) playerModesCB.getSelectedItem();
+				PlayerMode m = (PlayerMode) modesCB.getSelectedItem();
+				PlayerMode currMode = playerTypes.get(p);
+				playerTypes.put(p, m);
+				playerInfoTable.refresh();
+				if (currMode == PlayerMode.MANUAL && m != PlayerMode.MANUAL) {
+					decideMakeAutomaticMove();
+				}
+			}
+		});
+
+		panel.add(playerModesCB);
+		panel.add(modesCB);
+		panel.add(setModeButton);
+		addToCtrlArea(panel);
+	}
+
+	/**
+	 * 
+	 */
+	final protected void addQuitButton() {
+		JPanel p = new JPanel(new FlowLayout(FlowLayout.CENTER));
+		quitButton = new JButton("Quit");
+		quitButton.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				quit();
+			}
+		});
+		p.add(quitButton);
+
+		// if we are in a single view mode, we add the restart button.
+		if (localPiece == null) {
+			restartButton = new JButton("Restart");
+			restartButton.addActionListener(new ActionListener() {
+
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					try {
+						ctrl.restart();
+					} catch (GameError _e) {
+					}
+				}
+			});
+			p.add(restartButton);
+		}
+		addToCtrlArea(p);
+	}
+
+	final protected void addPlayerInfoTable() {
+		JPanel mainPanel = new JPanel(new BorderLayout());
+		mainPanel.setBorder(BorderFactory.createTitledBorder("Player Information"));
+
+		playerInfoTable = new PlayerInfoTableModel();
+		JTable table = new JTable(playerInfoTable) {
+			private static final long serialVersionUID = 1L;
+
+			@Override
+			public Component prepareRenderer(TableCellRenderer renderer, int row, int col) {
+				Component comp = super.prepareRenderer(renderer, row, col);
+				comp.setBackground(pieceColors.get(pieces.get(row)));
+				return comp;
+			}
+		};
+		JScrollPane sp = new JScrollPane(table);
+		table.setFillsViewportHeight(true);
+		mainPanel.setPreferredSize(new Dimension(100, 100));
+		mainPanel.add(sp);
+
+		addToCtrlArea(mainPanel);
+
+	}
+
+	final protected void addAutoPlayerButtons() {
+		// if there are no players except the manual one we don't add anything.
+		if (randomPlayer == null && aiPlayer == null) {
+			return;
+		}
+
+		JPanel p = new JPanel(new FlowLayout(FlowLayout.CENTER));
+		p.setBorder(BorderFactory.createTitledBorder("Automatic Moves"));
+
+		if (randomPlayer != null) {
+			randomMoveButton = new JButton("Random");
+			randomMoveButton.addActionListener(new ActionListener() {
+
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					makeRandomMove();
+				}
+			});
+			p.add(randomMoveButton);
+		}
+
+		if (aiPlayer != null) {
+			aiMoveButton = new JButton("Intelligent");
+			aiMoveButton.addActionListener(new ActionListener() {
+
+				@Override
+				public void actionPerformed(ActionEvent e) {
+					makeAIMove();
+				}
+			});
+			p.add(aiMoveButton);
+		}
+
+		addToCtrlArea(p);
+	}
+
+	/**
+	 * Asks the user, using a dialog box, if he really wants to quit. If so, it
+	 * notified the controller first and then executes System.exit(0).
+	 */
+	final protected void quit() {
+		int n = JOptionPane.showOptionDialog(new JFrame(), "Are sure you want to quit?", "Quit",
+				JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE, null, null, null);
+
+		if (n == 0) {
+			try {
+				ctrl.stop();
+			} catch (GameError _e) {
+			}
+			setVisible(false);
+			dispose();
+			System.exit(0);
+		}
+	}
+
+	/**
+	 * 
+	 */
+	final protected void clearStatusAreaContent() {
+		statusArea.setText("");
+	}
+
+	/**
+	 * 
+	 * @param msg
+	 */
+	final protected void addContentToStatusArea(String msg) {
+		statusArea.append("* " + msg + "\n");
+	}
+
+	/**
+	 * 
+	 * @return
+	 */
+	final protected String getStatusAreaContent() {
+		return statusArea.getText();
+	}
+
+	final protected Color getPieceColor(Piece p) {
+		Color c = pieceColors.get(p);
+		if (c == null) {
+			c = colorsIter.next();
+			pieceColors.put(p, c);
+		}
+		return c;
+	}
+
+	/**
+	 * Adds a JComponent to the control panel. Which is a panel with box-layout.
+	 * 
+	 * @param c
+	 *            a component to add to the control panel.
+	 */
+	final protected void addToCtrlArea(JComponent c) {
+		toolBarPanel.add(c);
+	}
+
+	/**
+	 * Adds a JComponent to the board panel.
+	 * 
+	 * @param c
+	 *            a component representing a board.
+	 */
+	final protected void setBoardArea(JComponent c) {
+		boardPanel.add(c, BorderLayout.CENTER);
+	}
+
+	private void disableView() {
+		boolean enable = false;
+
+		setRandMoveButtonStatus(enable);
+		setAIMoveButtonStatus(enable);
+		setRestartButtonStatus(enable);
+
+		deActivateBoard();
+
+	}
+
+	private void enableView() {
+		boolean enable = true;
+
+		setRandMoveButtonStatus(enable);
+		setAIMoveButtonStatus(enable);
+		setRestartButtonStatus(enable);
+
+		activateBoard();
+
+	}
+
+	private void setRandMoveButtonStatus(boolean enable) {
+		if (randomMoveButton != null) {
+			randomMoveButton.setEnabled(enable);
+		}
+	}
+
+	private void setAIMoveButtonStatus(boolean enable) {
+		if (aiMoveButton != null) {
+			aiMoveButton.setEnabled(enable);
+		}
+	}
+
+	private void setRestartButtonStatus(boolean enable) {
+		if (restartButton != null) {
+			restartButton.setEnabled(enable);
+		}
+	}
+
+	private void setQuitButtonStatus(boolean enable) {
+		if (quitButton != null) {
+			quitButton.setEnabled(enable);
+		}
+	}
+
+	private void handleGameStart(Board board, String gameDesc, List<Piece> pieces, Piece turn) {
+
+		this.setTitle("Board Games: " + gameDesc + (localPiece == null ? "" : " (" + localPiece + ")"));
+		this.turn = turn;
+		this.board = board;
+		this.pieces = pieces;
+		this.inPlay = true;
+		initializePiecesColors();
+		initializePlayersTypes();
+		disableView();
+		handleTurnChange(turn);
+	}
+
+	private void initializePlayersTypes() {
+		if (playerModesCB == null) {
+			return;
+		}
+
+		if (localPiece == null) {
+			for (Piece p : pieces) {
+				if (playerTypes.get(p) == null) {
+					playerTypes.put(p, PlayerMode.MANUAL);
+					playerModesCB.addItem(p);
+				}
+			}
+		} else {
+			if (playerTypes.get(localPiece) == null) {
+				playerTypes.put(localPiece, PlayerMode.MANUAL);
+				playerModesCB.addItem(localPiece);
+			}
+		}
+	}
+
+	private void handleGameOver(Board board, State state, Piece winner) {
+		inPlay = false;
+		disableView();
+		setQuitButtonStatus(true);
+		setRestartButtonStatus(true);
+		addContentToStatusArea("Game Over: " + state);
+		if (state == State.Won) {
+			addContentToStatusArea("The Winner is: " + winner);
+		}
+	}
+
+	private void handleTurnChange(Piece turn) {
+		this.turn = turn;
+		if ( playerInfoTable != null ) {
+			playerInfoTable.refresh();
+		}
+		
+		addContentToStatusArea("Turn for " + (turn.equals(localPiece) ? "You (" + turn + ")" : turn));
+
+		if ((localPiece == null || localPiece.equals(turn)) && playerTypes.get(turn) == PlayerMode.MANUAL) {
+			enableView();
+		} else {
+			disableView();
+		}
+
+		decideMakeAutomaticMove();
+	}
+
+	private void initializePiecesColors() {
+		playerColorsCB.removeAllItems();
+
+		for (Piece p : pieces) {
+			if (pieceColors.get(p) == null) {
+				pieceColors.put(p, colorsIter.next());
+			}
+			playerColorsCB.addItem(p);
+		}
+
+	}
+
+	private void passMoveToCtroller(final Player p) {
+		disableView();
+		SwingUtilities.invokeLater(new Runnable() {
+
+			@Override
+			public void run() {
+				try {
+					ctrl.makeMove(p);
+				} catch (GameError _e) {
+				}
+			}
+		});
+
+	}
+
+	private void makeAIMove() {
+		passMoveToCtroller(aiPlayer);
+	}
+
+	private void makeRandomMove() {
+		passMoveToCtroller(randomPlayer);
+	}
+
+	private void makeManualMove(Player manualPlayer) {
+		passMoveToCtroller(manualPlayer);
+	}
+
+	/**
+	 * This method is called from the GameObserver methods when the run change,
+	 * so if it is needed it will make a move if the current player is not
+	 * MANUAL.
+	 */
+	private void decideMakeAutomaticMove() {
+
+		// if we are executing a move, or the game is over then do nothing
+		//
+		if (inMovExec || !inPlay) {
+			return;
+		}
+
+		// if we are in a single view, and it is not the turn of the local
+		// player, do nothing
+		//
+		if (localPiece != null && !localPiece.equals(turn)) {
+			return;
+		}
+
+		switch (playerTypes.get(turn)) {
+		case AI:
+			makeAIMove();
+			break;
+		case RANDOM:
+			makeRandomMove();
+			break;
+		default:
+			break;
+		}
+	}
+
+	/**
+	 * This method should be called by subclasses when the have a move ready.
+	 */
+	final protected void decideMakeManualMove(Player manualPlayer) {
+
+		// if we are executing a move, or the game is over then do nothing
+		//
+		if (inMovExec || !inPlay) {
+			return;
+		}
+
+		// if we are in a single view, and it is not the turn of the local
+		// player, do nothing
+		//
+		if (localPiece != null && !localPiece.equals(turn)) {
+			return;
+		}
+
+		// if not in manual mode, do nothing. Ideally decideMakeManualMove
+		// should not be called from subclasses when not in manual mode, but we
+		// add this check anyway.
+		//
+		if (playerTypes.get(turn) != PlayerMode.MANUAL) {
+			return;
+		}
+
+		makeManualMove(manualPlayer);
+	}
+
+	protected Piece getTurn() {
+		return turn;
+	}
+
+	protected Board getBoard() {
+		return board;
+	}
+
+	/**
+	 * Returns a {@link ImageIcon} generated from a given file. The file is
+	 * relative to the location of {@link IconsDir}
+	 * 
+	 * @param imgFileName
+	 * @return
+	 */
+	protected ImageIcon createImage(String imgFileName) {
+		return new ImageIcon(IconsDir.class.getResource(imgFileName));
+	}
+
+	protected void reportError(String title, String msg) {
+		JOptionPane.showMessageDialog(new JFrame(), msg, title, JOptionPane.ERROR_MESSAGE);
+	}
+
+	final protected List<Piece> getPieces() {
+		return pieces;
+	}
+
+	/**
+	 * 
+	 */
+	protected abstract void initBoardGui();
+
+	/**
+	 * 
+	 */
+	protected abstract void activateBoard();
+
+	/**
+	 * 
+	 */
+	protected abstract void deActivateBoard();
+
+	/** GAME OBSERVER CALLBACKS **/
+
+	@Override
+	public void onGameStart(final Board board, final String gameDesc, final List<Piece> pieces, final Piece turn) {
+		SwingUtilities.invokeLater(new Runnable() {
+
+			@Override
+			public void run() {
+				handleGameStart(board, gameDesc, pieces, turn);
+			}
+		});
+	}
+
+	@Override
+	public void onGameOver(final Board board, final State state, final Piece winner) {
+		SwingUtilities.invokeLater(new Runnable() {
+
+			@Override
+			public void run() {
+				handleGameOver(board, state, winner);
+			}
+		});
+	}
+
+	@Override
+	public void onMoveStart(Board board, Piece turn) {
+		if (this.turn == turn) {
+			inMovExec = true;
+		}
+	}
+
+	@Override
+	public void onMoveEnd(Board board, Piece turn, boolean success) {
+		// we rely on that onMoveEnd is called before onChangeTurn in the model.
+		if (this.turn == turn) {
+			inMovExec = false;
+		}
+		if (!success) {
+			handleTurnChange(turn);
+		}
+	}
+
+	@Override
+	public void onChangeTurn(Board board, final Piece turn) {
+		SwingUtilities.invokeLater(new Runnable() {
+
+			@Override
+			public void run() {
+				handleTurnChange(turn);
+			}
+		});
+	}
+
+	@Override
+	public void onError(String msg) {
+		if (!inPlay || localPiece == null || turn.equals(localPiece)) {
+			reportError("Error", msg);
+		}
+	}
+
+}

@@ -1,0 +1,7 @@
+complejo
+4
+4
+1 3 simple 0 0
+3 0 simple 0 0
+0 1 compleja 0
+1 2 compleja 0

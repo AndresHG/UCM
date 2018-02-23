@@ -1,0 +1,49 @@
+package es.ucm.fdi.tp.pr5.connectn;
+
+import es.ucm.fdi.tp.basecode.bgame.control.Controller;
+import es.ucm.fdi.tp.basecode.bgame.control.Player;
+import es.ucm.fdi.tp.basecode.bgame.model.GameObserver;
+import es.ucm.fdi.tp.basecode.bgame.model.Observable;
+import es.ucm.fdi.tp.basecode.bgame.model.Piece;
+import es.ucm.fdi.tp.pr5.common.FiniteRectBoardSwingView;
+
+public class ConnectNSwingView extends FiniteRectBoardSwingView {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private ConnectNSwingPlayer player;
+	private boolean active;
+
+	public ConnectNSwingView(Observable<GameObserver> g, Controller c, Piece localPiece, Player randomPlayer,
+			Player autoPlayer) {
+		super(g, c, localPiece, randomPlayer, autoPlayer);
+		player = makeManualPlayer();
+	}
+
+	protected ConnectNSwingPlayer makeManualPlayer() {
+		return new ConnectNSwingPlayer();
+	}
+
+	@Override
+	protected void handleMouseClick(int row, int col, int clickCount, int mouseButton) {
+		if (!active || mouseButton != 1 ) // mouseButton=1 -> left click
+			return;
+		player.setMoveValue(row, col);
+		decideMakeManualMove(player);
+	}
+
+	@Override
+	protected void activateBoard() {
+		active = true;
+		addContentToStatusArea("Click on an empty cell");
+	}
+
+	@Override
+	protected void deActivateBoard() {
+		active = false;
+	}
+
+}

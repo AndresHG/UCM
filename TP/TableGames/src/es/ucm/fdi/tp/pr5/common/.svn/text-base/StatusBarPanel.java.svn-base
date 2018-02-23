@@ -1,0 +1,40 @@
+package es.ucm.fdi.tp.pr5.common;
+
+import java.awt.FlowLayout;
+
+import javax.swing.BorderFactory;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class StatusBarPanel extends JPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	private JLabel txt;
+	private String msg;
+
+	public StatusBarPanel(String msg) {
+		this.msg = msg;
+		initGUI();
+	}
+
+	private void initGUI() {
+		this.setLayout(new FlowLayout(FlowLayout.LEFT));
+		txt = new JLabel(msg);
+		this.add(txt);
+		this.setBorder(BorderFactory.createBevelBorder(1));
+	}
+
+	public void setContent(String msg) {
+		this.msg = msg;
+		txt.setText(msg);
+	}
+
+	public String getContent() {
+		return msg;
+	}
+
+}

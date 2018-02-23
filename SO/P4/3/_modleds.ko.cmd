@@ -1,0 +1,1 @@
+cmd_/home/usuarioso/borja/P5/3/modleds.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.14.1.lin/scripts/module-common.lds --build-id  -o /home/usuarioso/borja/P5/3/modleds.ko /home/usuarioso/borja/P5/3/modleds.o /home/usuarioso/borja/P5/3/modleds.mod.o

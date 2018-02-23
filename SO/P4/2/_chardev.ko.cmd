@@ -1,0 +1,1 @@
+cmd_/home/usuarioso/borja/P5/2/chardev.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.14.1.lin/scripts/module-common.lds --build-id  -o /home/usuarioso/borja/P5/2/chardev.ko /home/usuarioso/borja/P5/2/chardev.o /home/usuarioso/borja/P5/2/chardev.mod.o

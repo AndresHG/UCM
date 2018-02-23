@@ -1,0 +1,27 @@
+----------------------------------------------------------------------------
+
+Práctica 2 Versión 4.2.2.3a (01/02/2015)
+
+Fundamentos de la programación
+Facultad de Informátiica
+Universidad Complutense de Madrid
+
+Autores:
+	Andrés Herranz González
+	Guillermo Rius García
+
+Instrucciones:
+	-En los mazos no se podrán cargar mas de 52 cartas.
+	-Al barajar el mazo tenga cuidado de haber cargado uno previamente.
+	-Al cortar el mazo NO elija una carta superior al numero de cartas que
+	 contiene dicho mazo.
+	-En el truco de los tres montones debe cargar SOLO un mazo que contenga
+	 21 cartas, los demas quedaran descartados. Debe elegir una carta al 
+	comenzar el truco, y luego le irá indicando al mago en que mazo se
+	 encuentra dicha carta.
+	-En el truco de la posada se debe cargar un mazo que contengo SOLO 16
+	 cartas, contiene primero las cuatro J, luego las cuatro Q, luego las
+	 cuatro K y luego los cuatro A.
+	
+----------------------------------------------------------------------------
+.

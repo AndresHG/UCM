@@ -1,0 +1,27 @@
+----------------------------------------------------------------------------
+
+Practica 3 Versión 4.2.b (30/03/2015)
+
+Fundamentos de la programacion
+Facultad de Informátiica
+Universidad Complutense de Madrid
+
+Autores: Andres Herranz Gonzalez
+	 Guillermo Rius Garcia
+
+Instrucciones:
+	-Se utilizaran las flechas de dirección para indicar hacia donde se
+	 desea mover las fichas.
+	-Utilice la tecla Esc para salir de la partida al Menu y poder elegir
+	 la opción deseada.
+	-Cuando la pantalla este llena y no quepan mas fichas, usted tendra un 
+	 solo movimiento, y si noo consigue puntuar nada, habrá perdido.
+	-El fin del juego es llegar a sumar 2048 en una ficha, para ello 
+	 moveremos Izquierda, Derecha, Arriba o Abajo, de modo que solo se 
+	 sumaran los numeros que sean iguales y esten en dicha dirección.
+	-Para agrandar el tablero, deberá entrar en el programa y cambiar la
+	 constante global MAX al numero de casillas deseado, y luego, al entrar
+	 al juego, podrá elegir el numero de casillas deseado.
+	
+----------------------------------------------------------------------------
+.
