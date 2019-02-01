@@ -1,0 +1,11 @@
+db.libros.drop()
+db.libros.insert({ titulo: "Días de sueño (I have a dream)", 
+  autor : "Mor-feo",
+  precio : 12.5,
+  opiniones : [ { usuario : "bertoldo", comentario : "soporífero" , puntos : 3 }   ]  })
+
+db.libros.insert({ titulo: "Peppa Pig va de acampada", 
+  genero: "Thriller psicológico",
+  precio : 15,
+  opiniones : [ { usuario : "bertoldo", comentario : "Estremecedor" , puntos : 10 },
+                { usuario : "herminia" , comentario : "Inextricable" , puntos: 4 }   ]  })

@@ -1,0 +1,65 @@
+Bases de datos NoSQL - práctica 6
+
+#Nombre1: Andrés Herranz González
+#Nombre2: Luis Muñoz María
+#Nombre3: Iván Alba Vazquez
+
+#Observaciones:
+
+#P1a Insert:
+db.lugares.insert({nombre:"Manolo", tipo:"bar", pais:"España",
+                   posicion: {type:"Point", coordinates:[-3.7201797,40.4326352]}})
+
+#P1b Indice:
+db.lugares.createIndex({posicion: "2dsphere"})
+{
+	"createdCollectionAutomatically" : false,
+	"numIndexesBefore" : 1,
+	"numIndexesAfter" : 2,
+	"ok" : 1
+}
+
+#P2 Consulta:
+db.lugares.find({'posicion': {$near: {$geometry:{type:'point', coordinates:[-3.7251149,40.4381963]}, $maxDistance: 1000}}}, {nombre: 1, tipo: 1, _id:0})
+
+#P3a Borrado de índice:
+db.lugares.dropIndex("posicion_2dsphere")
+
+#P3b Resultado del sistema:
+Error: error: {
+	"ok" : 0,
+	"errmsg" : "error processing query: ns=test.lugaresTree: GEONEAR  field=posicion maxdist=1000 isNearSphere=0\nSort: {}\nProj: { nombre: 1.0, tipo: 1.0, _id: 0.0 }\n planner returned error: unable to find index for $geoNear query",
+	"code" : 2,
+	"codeName" : "BadValue"
+}
+
+#P4a Creación de índices:
+db.plano.createIndex({punto:1},"ipunto")
+db.plano.createIndex({desc:1},"idesc")
+
+#P4b Comentario sobre dif de tamaños:
+ipunto, porque es multikey y tiene que crear una entrada para cada índice del array
+
+#P5 Consulta:
+db.plano.find({"punto.0":{$gt:480}}).count()
+
+#P6a Índice (Sí/No): Sí
+#P6b ¿Cuál? (Sí/No): ipunto
+
+#P7 Consulta:
+db.plano.find( {punto: { $geoWithin: { $polygon: [ [ 0 , 0 ], [ 3 , 0 ], [ 3 , 3 ], [0,3] ] } } } )
+
+#P8 Creación de índice:
+db.plano.createIndex({ punto: "2d" })
+
+#P9a ¿Sé puede crear el índice?(Sí/No):
+No
+
+#P9b ¿Por qué? (una frase):
+Porque hay puntos que no tienen coordenadas válidas
+
+#P10a ¿Sé puede crear el índice para mejorar?(Sí/No):
+Sí
+
+#P10b Si la respuesta es sí, copiar la instrucción para crearlo. Si es no, escribir una frase explicando por qué.
+find({punto:{$lt :2}, desc:{$gt:"(5"}},{desc:1,_id:0})

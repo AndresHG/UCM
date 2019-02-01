@@ -1,0 +1,15 @@
+#### práctica 6, NoSQL
+
+db.lugares.drop()
+db.lugares.insert({nombre:"Informática-UCM", tipo:"Facultad", pais:"España",                    
+                    posicion: {type:"Point", coordinates:[-3.7353797,40.450305]}})
+db.lugares.insert({nombre:"Metropolitano", tipo:"metro", pais:"España", 
+                    posicion: {type:"Point", coordinates:[-3.7202654,40.4465915]}})
+db.lugares.insert({nombre:"Ciudad Universitaria", tipo:"metro", pais:"España", 
+                  posicion: {type:"Point", coordinates:[-3.7289768,40.4435602]}})
+db.lugares.insert({nombre:"Pabellón de Plata", tipo:"templo", pais:"Japón", 
+                   posicion: {type:"Point", coordinates:[135.7982058,35.0270213]}})
+db.lugares.insert({nombre:"Manolo", tipo:"bar", pais:"España", 
+                   posicion: {type:"Point", coordinates:[????long,????lat]}})
+
+

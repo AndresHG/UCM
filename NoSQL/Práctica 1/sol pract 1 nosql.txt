@@ -1,0 +1,42 @@
+Práctica 1 -  NoSQL - Solución
+Nombre 1: 
+Nombre 2:
+Observaciones:
+
+
+Respuestas
+
+1#Documento JSON: 
+No hace falta representar en el documento la clave “persona”, sería el nombre de la colección.
+{"nombre":"Bertoldo","edad":25, "direccion":{"ciudad":"Santa Desidia","cp":"10021"},"telefonos":[{"telf":"666-666-666","type":"fijo"},{"telf":"999-999-999","type":"movil"}]}
+
+
+2#Respuesta correcta (a,b,c,d,e): 
+c 
+
+3#Consulta:
+db.gente.find( { age : 50 } , {email: 0 } ) 
+
+4#Consulta:
+db.catalogo.find({color:"verde", para:"ipad 8", disponible:true }, {nombre:1,_id:0})
+
+5#Consulta:
+db.catalogo.find().map(function(doc){return doc.precio+doc.precio*16/100;})
+
+6#Consulta:
+db.pru.find({},{_id:0}).sort({b:1,a:-1})
+
+7#¿Conmutan? (S/N): S
+7#Ejemplo: 
+db.catalogo.find().sort({nombre:-1}).limit(1) y db.catalogo.find().limit(1).sort({nombre:-1}) deberían dar resultado distinto si no conmutaran pero dan lo mismo.
+
+8#¿Verdadero o Falso? (V/F): F
+8#Justificación: 
+ En Mongo siempre se ejecuta primero sort, y esto implica ordenar todos los documentos.
+
+9#Instrucción que falta:
+x[y]++;  // hay más posibilidades
+
+10#¿Son equivalentes? (S/N): N
+10#Una frase (en caso de S), o un contraejemplo (en caso de N):
+Al ejecutar sobre una colección vacía find().limit(1) no devuelve nada y findOne() escribe null

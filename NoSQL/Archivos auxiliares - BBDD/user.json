@@ -1,0 +1,5781 @@
+{
+	"_id": "265554862",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "JosephMorgan",
+	"url": "http://www.imdb.com/name/nm0604784/",
+	"created_at": {
+		"$date": "2011-03-13T19:12:30.000Z"
+	},
+	"time_zone": "Quito",
+	"tweets": {
+		"all": 3812.0,
+		"total": 1.0,
+		"RT": 0.0,
+		"original": 1.0
+	},
+	"followers": 2248939,
+	"location": null,
+	"following": 223,
+	"favourites_count": 70,
+	"geo_enabled": false,
+	"id": "265554862",
+	"trump": false,
+	"clinton": true,
+	"mentions": 319.0,
+	"RTin": 4020.0,
+	"rank": {
+		"followers": 195.0,
+		"mentions": 709.5,
+		"RTin": 141.0
+	},
+	"norm": {
+		"mentions": 319.0,
+		"RTin": 4020.0
+	},
+	"normrank": {
+		"followers": 195.0,
+		"mentions": 38142.0,
+		"RTin": 12.0
+	}
+}
+{
+	"_id": "721446222549147648",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "FacMagnaAmerica",
+	"url": "http://youtu.be/eiW9YNR-qHc",
+	"created_at": {
+		"$date": "2016-04-16T21:12:38.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 24375.0,
+		"total": 55.0,
+		"RT": 29.0,
+		"original": 26.0
+	},
+	"followers": 12877,
+	"location": "United States",
+	"following": 598,
+	"favourites_count": 8356,
+	"geo_enabled": true,
+	"id": "721446222549147648",
+	"clinton": true,
+	"trump": true,
+	"mentions": 458.0,
+	"RTin": 4091.0,
+	"rank": {
+		"followers": 26014.0,
+		"mentions": 506.0,
+		"RTin": 140.0
+	},
+	"norm": {
+		"mentions": 17.615384615384617,
+		"RTin": 157.34615384615384
+	},
+	"normrank": {
+		"followers": 26014.0,
+		"mentions": 811.3333333333334,
+		"RTin": 511.0
+	}
+}
+{
+	"_id": "1075681177",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "2ALAW",
+	"url": "http://gab.ai/clintonmichael",
+	"created_at": {
+		"$date": "2013-01-10T04:42:42.000Z"
+	},
+	"time_zone": "Arizona",
+	"tweets": {
+		"all": 30284.0,
+		"total": 86.0,
+		"RT": 72.0,
+		"original": 14.0
+	},
+	"followers": 35360,
+	"location": "Arizona, USA",
+	"following": 13410,
+	"favourites_count": 42307,
+	"geo_enabled": false,
+	"id": "1075681177",
+	"clinton": true,
+	"trump": true,
+	"mentions": 639.0,
+	"RTin": 4191.0,
+	"rank": {
+		"followers": 10459.0,
+		"mentions": 369.5,
+		"RTin": 139.0
+	},
+	"norm": {
+		"mentions": 45.642857142857146,
+		"RTin": 299.35714285714283
+	},
+	"normrank": {
+		"followers": 10459.0,
+		"mentions": 789.0,
+		"RTin": 264.0
+	}
+}
+{
+	"_id": "27895304",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "heytana",
+	"url": "http://www.donaldjtrump.com",
+	"created_at": {
+		"$date": "2009-03-31T15:41:25.000Z"
+	},
+	"time_zone": "Central Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 7681.0,
+		"total": 31.0,
+		"RT": 5.0,
+		"original": 26.0
+	},
+	"followers": 24516,
+	"location": "Campaign Trail USA",
+	"following": 995,
+	"favourites_count": 8379,
+	"geo_enabled": true,
+	"id": "27895304",
+	"clinton": true,
+	"trump": true,
+	"mentions": 843.0,
+	"RTin": 4293.0,
+	"rank": {
+		"followers": 14385.0,
+		"mentions": 304.0,
+		"RTin": 138.0
+	},
+	"norm": {
+		"mentions": 32.42307692307692,
+		"RTin": 165.1153846153846
+	},
+	"normrank": {
+		"followers": 14385.0,
+		"mentions": 1191.0,
+		"RTin": 480.0
+	}
+}
+{
+	"_id": "328878936",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "JaredWyand",
+	"url": "http://ProjectPurge.com",
+	"created_at": {
+		"$date": "2011-07-04T05:46:49.000Z"
+	},
+	"time_zone": "Quito",
+	"tweets": {
+		"all": 53367.0,
+		"total": 36.0,
+		"RT": 29.0,
+		"original": 7.0
+	},
+	"followers": 111994,
+	"location": null,
+	"following": 9913,
+	"favourites_count": 73172,
+	"geo_enabled": false,
+	"id": "328878936",
+	"clinton": true,
+	"trump": true,
+	"mentions": 3881.0,
+	"RTin": 4341.0,
+	"rank": {
+		"followers": 3808.0,
+		"mentions": 77.0,
+		"RTin": 137.0
+	},
+	"norm": {
+		"mentions": 554.4285714285714,
+		"RTin": 620.1428571428571
+	},
+	"normrank": {
+		"followers": 3808.0,
+		"mentions": 79.0,
+		"RTin": 120.0
+	}
+}
+{
+	"_id": "438829074",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "d_seaman",
+	"url": "https://youtube.com/davidseamanonline",
+	"created_at": {
+		"$date": "2011-12-17T02:20:42.000Z"
+	},
+	"time_zone": "Atlantic Time (Canada)",
+	"tweets": {
+		"all": 42276.0,
+		"total": 94.0,
+		"RT": 31.0,
+		"original": 63.0
+	},
+	"followers": 36970,
+	"location": "United States",
+	"following": 121,
+	"favourites_count": 15682,
+	"geo_enabled": false,
+	"id": "438829074",
+	"clinton": true,
+	"trump": true,
+	"mentions": 838.0,
+	"RTin": 4353.0,
+	"rank": {
+		"followers": 10077.0,
+		"mentions": 306.0,
+		"RTin": 136.0
+	},
+	"norm": {
+		"mentions": 13.301587301587302,
+		"RTin": 69.0952380952381
+	},
+	"normrank": {
+		"followers": 10077.0,
+		"mentions": 2559.0,
+		"RTin": 1075.0
+	}
+}
+{
+	"_id": "16906530",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "ktmcfarland",
+	"url": "http://ktmcfarland.com/",
+	"created_at": {
+		"$date": "2008-10-22T14:56:04.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 5614.0,
+		"total": 25.0,
+		"RT": 8.0,
+		"original": 17.0
+	},
+	"followers": 58058,
+	"location": "New York, NY",
+	"following": 340,
+	"favourites_count": 207,
+	"geo_enabled": true,
+	"id": "16906530",
+	"clinton": false,
+	"trump": true,
+	"mentions": 593.0,
+	"RTin": 4354.0,
+	"rank": {
+		"followers": 6787.0,
+		"mentions": 401.0,
+		"RTin": 135.0
+	},
+	"norm": {
+		"mentions": 34.88235294117647,
+		"RTin": 256.11764705882354
+	},
+	"normrank": {
+		"followers": 6787.0,
+		"mentions": 1125.0,
+		"RTin": 311.0
+	}
+}
+{
+	"_id": "972909709",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "Braveheart_USA",
+	"url": null,
+	"created_at": {
+		"$date": "2012-11-26T23:31:16.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 44691.0,
+		"total": 31.0,
+		"RT": 17.0,
+		"original": 14.0
+	},
+	"followers": 53300,
+	"location": null,
+	"following": 40153,
+	"favourites_count": 39881,
+	"geo_enabled": false,
+	"id": "972909709",
+	"clinton": true,
+	"trump": true,
+	"mentions": 265.0,
+	"RTin": 4396.0,
+	"rank": {
+		"followers": 7345.0,
+		"mentions": 840.0,
+		"RTin": 134.0
+	},
+	"norm": {
+		"mentions": 18.928571428571427,
+		"RTin": 314.0
+	},
+	"normrank": {
+		"followers": 7345.0,
+		"mentions": 2081.0,
+		"RTin": 247.0
+	}
+}
+{
+	"_id": "717715502190174209",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "nobarriers2016",
+	"url": "http://BarrierBreakers2016.com",
+	"created_at": {
+		"$date": "2016-04-06T14:08:05.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 6102.0,
+		"total": 214.0,
+		"RT": 31.0,
+		"original": 183.0
+	},
+	"followers": 4446,
+	"location": "Where barriers need breaking",
+	"following": 272,
+	"favourites_count": 1077,
+	"geo_enabled": false,
+	"id": "717715502190174209",
+	"clinton": true,
+	"trump": true,
+	"mentions": 306.0,
+	"RTin": 4413.0,
+	"rank": {
+		"followers": 66999.5,
+		"mentions": 739.5,
+		"RTin": 133.0
+	},
+	"norm": {
+		"mentions": 1.6721311475409837,
+		"RTin": 24.114754098360656
+	},
+	"normrank": {
+		"followers": 66999.5,
+		"mentions": 11208.0,
+		"RTin": 2768.0
+	}
+}
+{
+	"_id": "39349894",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "EricTrump",
+	"url": "http://www.erictrumpfoundation.com",
+	"created_at": {
+		"$date": "2009-05-11T21:42:30.000Z"
+	},
+	"time_zone": "Quito",
+	"tweets": {
+		"all": 4561.0,
+		"total": 27.0,
+		"RT": 24.0,
+		"original": 3.0
+	},
+	"followers": 545873,
+	"location": null,
+	"following": 471,
+	"favourites_count": 3975,
+	"geo_enabled": true,
+	"id": "39349894",
+	"clinton": true,
+	"trump": true,
+	"mentions": 25667.0,
+	"RTin": 4415.0,
+	"rank": {
+		"followers": 878.0,
+		"mentions": 10.0,
+		"RTin": 132.0
+	},
+	"norm": {
+		"mentions": 8555.666666666666,
+		"RTin": 1471.6666666666667
+	},
+	"normrank": {
+		"followers": 878.0,
+		"mentions": 4.0,
+		"RTin": 50.0
+	}
+}
+{
+	"_id": "2596413645",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "carrieksada",
+	"url": null,
+	"created_at": {
+		"$date": "2014-06-10T00:36:13.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 76967.0,
+		"total": 146.0,
+		"RT": 103.0,
+		"original": 43.0
+	},
+	"followers": 9712,
+	"location": "California, USA",
+	"following": 4469,
+	"favourites_count": 65571,
+	"geo_enabled": true,
+	"id": "2596413645",
+	"clinton": true,
+	"trump": true,
+	"mentions": 518.0,
+	"RTin": 4515.0,
+	"rank": {
+		"followers": 34169.0,
+		"mentions": 443.5,
+		"RTin": 131.0
+	},
+	"norm": {
+		"mentions": 12.046511627906977,
+		"RTin": 105.0
+	},
+	"normrank": {
+		"followers": 34169.0,
+		"mentions": 3293.0,
+		"RTin": 755.0
+	}
+}
+{
+	"_id": "14185317",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "JenGranholm",
+	"url": "http://www.jennifergranholm.com",
+	"created_at": {
+		"$date": "2008-03-20T16:55:16.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 12868.0,
+		"total": 104.0,
+		"RT": 7.0,
+		"original": 97.0
+	},
+	"followers": 75068,
+	"location": "Oakland, California",
+	"following": 13332,
+	"favourites_count": 2027,
+	"geo_enabled": true,
+	"id": "14185317",
+	"clinton": true,
+	"trump": true,
+	"mentions": 989.0,
+	"RTin": 4588.0,
+	"rank": {
+		"followers": 5454.0,
+		"mentions": 266.5,
+		"RTin": 130.0
+	},
+	"norm": {
+		"mentions": 10.195876288659793,
+		"RTin": 47.29896907216495
+	},
+	"normrank": {
+		"followers": 5454.0,
+		"mentions": 1646.5,
+		"RTin": 1505.0
+	}
+}
+{
+	"_id": "288619518",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "JoseANunez1",
+	"url": "http://joseanunez.com",
+	"created_at": {
+		"$date": "2011-04-27T05:18:55.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 5724.0,
+		"total": 36.0,
+		"RT": 10.0,
+		"original": 26.0
+	},
+	"followers": 192,
+	"location": "Los Angeles, CA",
+	"following": 136,
+	"favourites_count": 3062,
+	"geo_enabled": true,
+	"id": "288619518",
+	"clinton": true,
+	"trump": true,
+	"mentions": 218.0,
+	"RTin": 4591.0,
+	"rank": {
+		"followers": 781493.0,
+		"mentions": 989.5,
+		"RTin": 129.0
+	},
+	"norm": {
+		"mentions": 8.384615384615385,
+		"RTin": 176.57692307692307
+	},
+	"normrank": {
+		"followers": 781493.0,
+		"mentions": 240685.0,
+		"RTin": 459.0
+	}
+}
+{
+	"_id": "58233603",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "iansomerhalder",
+	"url": "http://grazielagems.com/graziela-for-isf/",
+	"created_at": {
+		"$date": "2009-07-19T16:36:43.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 9335.0,
+		"total": 3.0,
+		"RT": 0.0,
+		"original": 3.0
+	},
+	"followers": 6441975,
+	"location": "The Universe",
+	"following": 662,
+	"favourites_count": 51,
+	"geo_enabled": true,
+	"id": "58233603",
+	"trump": false,
+	"clinton": true,
+	"mentions": 572.0,
+	"RTin": 4681.0,
+	"rank": {
+		"followers": 49.0,
+		"mentions": 417.5,
+		"RTin": 128.0
+	},
+	"norm": {
+		"mentions": 190.66666666666666,
+		"RTin": 1560.3333333333333
+	},
+	"normrank": {
+		"followers": 49.0,
+		"mentions": 506.0,
+		"RTin": 47.0
+	}
+}
+{
+	"_id": "499073990",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "DebraMessing",
+	"url": null,
+	"created_at": {
+		"$date": "2012-02-21T19:01:16.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 32215.0,
+		"total": 69.0,
+		"RT": 38.0,
+		"original": 31.0
+	},
+	"followers": 327918,
+	"location": "New York City ",
+	"following": 535,
+	"favourites_count": 5036,
+	"geo_enabled": false,
+	"id": "499073990",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1992.0,
+	"RTin": 4701.0,
+	"rank": {
+		"followers": 1402.0,
+		"mentions": 135.0,
+		"RTin": 127.0
+	},
+	"norm": {
+		"mentions": 64.25806451612904,
+		"RTin": 151.6451612903226
+	},
+	"normrank": {
+		"followers": 1402.0,
+		"mentions": 636.0,
+		"RTin": 533.0
+	}
+}
+{
+	"_id": "520653311",
+	"lang": "es",
+	"verified": true,
+	"screen_name": "AristeguiOnline",
+	"url": "http://AristeguiNoticias.com",
+	"created_at": {
+		"$date": "2012-03-10T19:08:28.000Z"
+	},
+	"time_zone": "Mexico City",
+	"tweets": {
+		"all": 150377.0,
+		"total": 81.0,
+		"RT": 0.0,
+		"original": 81.0
+	},
+	"followers": 6758019,
+	"location": "México, DF",
+	"following": 8,
+	"favourites_count": 39,
+	"geo_enabled": false,
+	"id": "520653311",
+	"clinton": true,
+	"trump": true,
+	"mentions": 622.0,
+	"RTin": 4703.0,
+	"rank": {
+		"followers": 45.0,
+		"mentions": 382.0,
+		"RTin": 126.0
+	},
+	"norm": {
+		"mentions": 7.679012345679013,
+		"RTin": 58.06172839506173
+	},
+	"normrank": {
+		"followers": 45.0,
+		"mentions": 142186.33333333334,
+		"RTin": 1242.0
+	}
+}
+{
+	"_id": "580312540",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "girlsreallyrule",
+	"url": null,
+	"created_at": {
+		"$date": "2012-05-14T22:47:15.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 15041.0,
+		"total": 50.0,
+		"RT": 2.0,
+		"original": 48.0
+	},
+	"followers": 27624,
+	"location": "Seattle, soon to be DC.",
+	"following": 21155,
+	"favourites_count": 27640,
+	"geo_enabled": false,
+	"id": "580312540",
+	"clinton": true,
+	"trump": true,
+	"mentions": 779.0,
+	"RTin": 4753.0,
+	"rank": {
+		"followers": 13001.5,
+		"mentions": 319.0,
+		"RTin": 125.0
+	},
+	"norm": {
+		"mentions": 16.229166666666668,
+		"RTin": 99.02083333333333
+	},
+	"normrank": {
+		"followers": 13001.5,
+		"mentions": 1367.3333333333333,
+		"RTin": 781.0
+	}
+}
+{
+	"_id": "82447359",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "ScottBaio",
+	"url": "http://www.baileybaioangelfoundation.com",
+	"created_at": {
+		"$date": "2009-10-14T20:17:15.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 12113.0,
+		"total": 22.0,
+		"RT": 6.0,
+		"original": 16.0
+	},
+	"followers": 142983,
+	"location": "Toluca Lake",
+	"following": 3259,
+	"favourites_count": 7759,
+	"geo_enabled": true,
+	"id": "82447359",
+	"clinton": true,
+	"trump": true,
+	"mentions": 2830.0,
+	"RTin": 4771.0,
+	"rank": {
+		"followers": 2993.0,
+		"mentions": 96.5,
+		"RTin": 124.0
+	},
+	"norm": {
+		"mentions": 176.875,
+		"RTin": 298.1875
+	},
+	"normrank": {
+		"followers": 2993.0,
+		"mentions": 248.0,
+		"RTin": 266.0
+	}
+}
+{
+	"_id": "133371829",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "kinni00",
+	"url": "https://www.latinoswithtrump.org",
+	"created_at": {
+		"$date": "2010-04-15T16:22:30.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 23448.0,
+		"total": 30.0,
+		"RT": 12.0,
+		"original": 18.0
+	},
+	"followers": 24217,
+	"location": "FB Profile:Deleted by Facebook",
+	"following": 1753,
+	"favourites_count": 29153,
+	"geo_enabled": false,
+	"id": "133371829",
+	"clinton": true,
+	"trump": true,
+	"mentions": 480.0,
+	"RTin": 4777.0,
+	"rank": {
+		"followers": 14542.5,
+		"mentions": 481.5,
+		"RTin": 123.0
+	},
+	"norm": {
+		"mentions": 26.666666666666668,
+		"RTin": 265.3888888888889
+	},
+	"normrank": {
+		"followers": 14542.5,
+		"mentions": 1254.0,
+		"RTin": 302.0
+	}
+}
+{
+	"_id": "246939630",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "shannonrwatts",
+	"url": "http://www.momsdemandaction.org",
+	"created_at": {
+		"$date": "2011-02-03T19:32:59.000Z"
+	},
+	"time_zone": "Indiana (East)",
+	"tweets": {
+		"all": 41602.0,
+		"total": 103.0,
+		"RT": 59.0,
+		"original": 44.0
+	},
+	"followers": 19677,
+	"location": null,
+	"following": 1950,
+	"favourites_count": 31228,
+	"geo_enabled": false,
+	"id": "246939630",
+	"clinton": true,
+	"trump": true,
+	"mentions": 510.0,
+	"RTin": 4779.0,
+	"rank": {
+		"followers": 17689.5,
+		"mentions": 450.5,
+		"RTin": 122.0
+	},
+	"norm": {
+		"mentions": 11.590909090909092,
+		"RTin": 108.61363636363636
+	},
+	"normrank": {
+		"followers": 17689.5,
+		"mentions": 10483.25,
+		"RTin": 731.0
+	}
+}
+{
+	"_id": "59550291",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "0HOUR1___",
+	"url": null,
+	"created_at": {
+		"$date": "2009-07-23T18:42:14.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 829.0,
+		"total": 16.0,
+		"RT": 7.0,
+		"original": 9.0
+	},
+	"followers": 11339,
+	"location": "Not a cool guy but sweet!",
+	"following": 1835,
+	"favourites_count": 98,
+	"geo_enabled": false,
+	"id": "59550291",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1316.0,
+	"RTin": 4808.0,
+	"rank": {
+		"followers": 29424.0,
+		"mentions": 204.0,
+		"RTin": 121.0
+	},
+	"norm": {
+		"mentions": 146.22222222222223,
+		"RTin": 534.2222222222222
+	},
+	"normrank": {
+		"followers": 29424.0,
+		"mentions": 306.0,
+		"RTin": 145.0
+	}
+}
+{
+	"_id": "197518793",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "VoteHillary2016",
+	"url": "https://www.facebook.com/groups/RiseHillaryRise/",
+	"created_at": {
+		"$date": "2010-10-01T18:25:57.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 52412.0,
+		"total": 156.0,
+		"RT": 54.0,
+		"original": 102.0
+	},
+	"followers": 23565,
+	"location": null,
+	"following": 399,
+	"favourites_count": 6215,
+	"geo_enabled": false,
+	"id": "197518793",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1425.0,
+	"RTin": 4865.0,
+	"rank": {
+		"followers": 14907.0,
+		"mentions": 188.0,
+		"RTin": 120.0
+	},
+	"norm": {
+		"mentions": 13.970588235294118,
+		"RTin": 47.69607843137255
+	},
+	"normrank": {
+		"followers": 14907.0,
+		"mentions": 1141.3333333333333,
+		"RTin": 1497.0
+	}
+}
+{
+	"_id": "242618658",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "AppSame",
+	"url": "http://www.appsame.com",
+	"created_at": {
+		"$date": "2011-01-25T05:41:45.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 172393.0,
+		"total": 610.0,
+		"RT": 441.0,
+		"original": 169.0
+	},
+	"followers": 1106435,
+	"location": "Tampa, Fl,Washington DC",
+	"following": 210703,
+	"favourites_count": 84825,
+	"geo_enabled": true,
+	"id": "242618658",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1384.0,
+	"RTin": 5003.0,
+	"rank": {
+		"followers": 442.0,
+		"mentions": 194.0,
+		"RTin": 119.0
+	},
+	"norm": {
+		"mentions": 8.189349112426035,
+		"RTin": 29.60355029585799
+	},
+	"normrank": {
+		"followers": 442.0,
+		"mentions": 3918.0,
+		"RTin": 2302.0
+	}
+}
+{
+	"_id": "2903166449",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "MrEdTrain",
+	"url": "http://www.trump.com",
+	"created_at": {
+		"$date": "2014-12-03T01:57:20.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 160605.0,
+		"total": 348.0,
+		"RT": 325.0,
+		"original": 23.0
+	},
+	"followers": 34367,
+	"location": "Quincy, MA ",
+	"following": 29966,
+	"favourites_count": 166483,
+	"geo_enabled": true,
+	"id": "2903166449",
+	"clinton": true,
+	"trump": true,
+	"mentions": 665.0,
+	"RTin": 5095.0,
+	"rank": {
+		"followers": 10716.5,
+		"mentions": 355.0,
+		"RTin": 118.0
+	},
+	"norm": {
+		"mentions": 28.91304347826087,
+		"RTin": 221.52173913043478
+	},
+	"normrank": {
+		"followers": 10716.5,
+		"mentions": 1338.0,
+		"RTin": 361.0
+	}
+}
+{
+	"_id": "562054562",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "patrioticpepe",
+	"url": null,
+	"created_at": {
+		"$date": "2012-04-24T14:12:46.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 3206.0,
+		"total": 96.0,
+		"RT": 0.0,
+		"original": 96.0
+	},
+	"followers": 10696,
+	"location": "America",
+	"following": 1037,
+	"favourites_count": 1,
+	"geo_enabled": true,
+	"id": "562054562",
+	"clinton": false,
+	"trump": true,
+	"mentions": 2478.0,
+	"RTin": 5112.0,
+	"rank": {
+		"followers": 31185.5,
+		"mentions": 108.0,
+		"RTin": 117.0
+	},
+	"norm": {
+		"mentions": 25.8125,
+		"RTin": 53.25
+	},
+	"normrank": {
+		"followers": 31185.5,
+		"mentions": 1482.0,
+		"RTin": 1356.0
+	}
+}
+{
+	"_id": "432050821",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "robtned",
+	"url": "http://blog.nixonfoundation.org",
+	"created_at": {
+		"$date": "2011-12-09T00:10:15.000Z"
+	},
+	"time_zone": "Central Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 3590.0,
+		"total": 2.0,
+		"RT": 0.0,
+		"original": 2.0
+	},
+	"followers": 587,
+	"location": "Silver Spring",
+	"following": 985,
+	"favourites_count": 5,
+	"geo_enabled": true,
+	"id": "432050821",
+	"clinton": false,
+	"trump": true,
+	"mentions": 491.0,
+	"RTin": 5123.0,
+	"rank": {
+		"followers": 410714.0,
+		"mentions": 472.0,
+		"RTin": 116.0
+	},
+	"norm": {
+		"mentions": 245.5,
+		"RTin": 2561.5
+	},
+	"normrank": {
+		"followers": 410714.0,
+		"mentions": 177.0,
+		"RTin": 24.0
+	}
+}
+{
+	"_id": "34717352",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "DavidKWilliams",
+	"url": "http://www.fishbowlinventory.com/vip/",
+	"created_at": {
+		"$date": "2009-04-23T20:20:53.000Z"
+	},
+	"time_zone": "Mountain Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 27475.0,
+		"total": 9.0,
+		"RT": 8.0,
+		"original": 1.0
+	},
+	"followers": 3993843,
+	"location": "global",
+	"following": 5432,
+	"favourites_count": 2471,
+	"geo_enabled": false,
+	"id": "34717352",
+	"clinton": true,
+	"trump": true,
+	"mentions": 12.0,
+	"RTin": 5139.0,
+	"rank": {
+		"followers": 90.0,
+		"mentions": 16252.5,
+		"RTin": 115.0
+	},
+	"norm": {
+		"mentions": 12.0,
+		"RTin": 5139.0
+	},
+	"normrank": {
+		"followers": 90.0,
+		"mentions": 83690.64563106796,
+		"RTin": 9.0
+	}
+}
+{
+	"_id": "110445334",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "megynkelly",
+	"url": "http://www.foxnews.com/TheKellyFile",
+	"created_at": {
+		"$date": "2010-02-01T15:36:12.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 11903.0,
+		"total": 27.0,
+		"RT": 3.0,
+		"original": 24.0
+	},
+	"followers": 2093832,
+	"location": null,
+	"following": 1315,
+	"favourites_count": 13,
+	"geo_enabled": false,
+	"id": "110445334",
+	"clinton": true,
+	"trump": true,
+	"mentions": 9938.0,
+	"RTin": 5269.0,
+	"rank": {
+		"followers": 214.0,
+		"mentions": 30.0,
+		"RTin": 114.0
+	},
+	"norm": {
+		"mentions": 414.0833333333333,
+		"RTin": 219.54166666666666
+	},
+	"normrank": {
+		"followers": 214.0,
+		"mentions": 106.0,
+		"RTin": 365.0
+	}
+}
+{
+	"_id": "3981225735",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "TrumpStudents",
+	"url": "http://www.students4trump.com",
+	"created_at": {
+		"$date": "2015-10-17T18:13:13.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 2502.0,
+		"total": 32.0,
+		"RT": 13.0,
+		"original": 19.0
+	},
+	"followers": 44155,
+	"location": "United States",
+	"following": 3570,
+	"favourites_count": 5299,
+	"geo_enabled": true,
+	"id": "3981225735",
+	"clinton": true,
+	"trump": true,
+	"mentions": 530.0,
+	"RTin": 5279.0,
+	"rank": {
+		"followers": 8698.5,
+		"mentions": 436.5,
+		"RTin": 113.0
+	},
+	"norm": {
+		"mentions": 27.894736842105264,
+		"RTin": 277.8421052631579
+	},
+	"normrank": {
+		"followers": 8698.5,
+		"mentions": 826.5,
+		"RTin": 289.0
+	}
+}
+{
+	"_id": "4041824789",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "RSBNetwork",
+	"url": "http://rsbn.tv",
+	"created_at": {
+		"$date": "2015-10-25T22:00:42.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 4616.0,
+		"total": 26.0,
+		"RT": 12.0,
+		"original": 14.0
+	},
+	"followers": 34598,
+	"location": "Auburn, AL ",
+	"following": 223,
+	"favourites_count": 4800,
+	"geo_enabled": true,
+	"id": "4041824789",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1820.0,
+	"RTin": 5285.0,
+	"rank": {
+		"followers": 10654.0,
+		"mentions": 153.0,
+		"RTin": 112.0
+	},
+	"norm": {
+		"mentions": 130.0,
+		"RTin": 377.5
+	},
+	"normrank": {
+		"followers": 10654.0,
+		"mentions": 344.0,
+		"RTin": 202.0
+	}
+}
+{
+	"_id": "3330905427",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "TrumpD2016",
+	"url": "https://www.donaldjtrump.com",
+	"created_at": {
+		"$date": "2015-06-17T06:56:46.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 8340.0,
+		"total": 133.0,
+		"RT": 8.0,
+		"original": 125.0
+	},
+	"followers": 35335,
+	"location": "U.S.A.",
+	"following": 41,
+	"favourites_count": 1569,
+	"geo_enabled": true,
+	"id": "3330905427",
+	"clinton": true,
+	"trump": true,
+	"mentions": 357.0,
+	"RTin": 5333.0,
+	"rank": {
+		"followers": 10467.0,
+		"mentions": 639.5,
+		"RTin": 111.0
+	},
+	"norm": {
+		"mentions": 2.856,
+		"RTin": 42.664
+	},
+	"normrank": {
+		"followers": 10467.0,
+		"mentions": 4939.5,
+		"RTin": 1662.0
+	}
+}
+{
+	"_id": "407396556",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "JDiamond1",
+	"url": "http://www.cnn.com/profiles/jeremy-diamond",
+	"created_at": {
+		"$date": "2011-11-08T01:14:06.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 9191.0,
+		"total": 50.0,
+		"RT": 2.0,
+		"original": 48.0
+	},
+	"followers": 21808,
+	"location": "Washington, DC",
+	"following": 1571,
+	"favourites_count": 1109,
+	"geo_enabled": true,
+	"id": "407396556",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1332.0,
+	"RTin": 5409.0,
+	"rank": {
+		"followers": 16047.5,
+		"mentions": 203.0,
+		"RTin": 110.0
+	},
+	"norm": {
+		"mentions": 27.75,
+		"RTin": 112.6875
+	},
+	"normrank": {
+		"followers": 16047.5,
+		"mentions": 1398.0,
+		"RTin": 708.0
+	}
+}
+{
+	"_id": "709451112739262465",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "AmericanVoterUS",
+	"url": null,
+	"created_at": {
+		"$date": "2016-03-14T18:48:21.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 26441.0,
+		"total": 424.0,
+		"RT": 284.0,
+		"original": 140.0
+	},
+	"followers": 8019,
+	"location": "The Shining City on a Hill",
+	"following": 7809,
+	"favourites_count": 28821,
+	"geo_enabled": true,
+	"id": "709451112739262465",
+	"clinton": true,
+	"trump": true,
+	"mentions": 484.0,
+	"RTin": 5417.0,
+	"rank": {
+		"followers": 40004.0,
+		"mentions": 478.0,
+		"RTin": 109.0
+	},
+	"norm": {
+		"mentions": 3.4571428571428573,
+		"RTin": 38.69285714285714
+	},
+	"normrank": {
+		"followers": 40004.0,
+		"mentions": 382798.6666666667,
+		"RTin": 1810.0
+	}
+}
+{
+	"_id": "31312972",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "mradamscott",
+	"url": null,
+	"created_at": {
+		"$date": "2009-04-15T02:34:51.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 1544.0,
+		"total": 4.0,
+		"RT": 0.0,
+		"original": 4.0
+	},
+	"followers": 1220198,
+	"location": null,
+	"following": 793,
+	"favourites_count": 957,
+	"geo_enabled": false,
+	"id": "31312972",
+	"clinton": true,
+	"trump": true,
+	"mentions": 640.0,
+	"RTin": 5458.0,
+	"rank": {
+		"followers": 404.0,
+		"mentions": 368.0,
+		"RTin": 108.0
+	},
+	"norm": {
+		"mentions": 160.0,
+		"RTin": 1364.5
+	},
+	"normrank": {
+		"followers": 404.0,
+		"mentions": 282.0,
+		"RTin": 56.0
+	}
+}
+{
+	"_id": "37764422",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "foxnation",
+	"url": "http://www.foxnation.com/",
+	"created_at": {
+		"$date": "2009-05-04T21:25:22.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 67244.0,
+		"total": 102.0,
+		"RT": 0.0,
+		"original": 102.0
+	},
+	"followers": 262007,
+	"location": null,
+	"following": 413,
+	"favourites_count": 56,
+	"geo_enabled": false,
+	"id": "37764422",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1496.0,
+	"RTin": 5531.0,
+	"rank": {
+		"followers": 1726.0,
+		"mentions": 183.0,
+		"RTin": 107.0
+	},
+	"norm": {
+		"mentions": 14.666666666666666,
+		"RTin": 54.22549019607843
+	},
+	"normrank": {
+		"followers": 1726.0,
+		"mentions": 2356.0,
+		"RTin": 1338.0
+	}
+}
+{
+	"_id": "7587032",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "SkyNews",
+	"url": "http://news.sky.com/",
+	"created_at": {
+		"$date": "2007-07-19T14:42:53.000Z"
+	},
+	"time_zone": "London",
+	"tweets": {
+		"all": 227627.0,
+		"total": 122.0,
+		"RT": 4.0,
+		"original": 118.0
+	},
+	"followers": 3604555,
+	"location": "London, UK",
+	"following": 14,
+	"favourites_count": 7,
+	"geo_enabled": false,
+	"id": "7587032",
+	"clinton": true,
+	"trump": true,
+	"mentions": 4280.0,
+	"RTin": 5556.0,
+	"rank": {
+		"followers": 105.0,
+		"mentions": 69.0,
+		"RTin": 106.0
+	},
+	"norm": {
+		"mentions": 36.271186440677965,
+		"RTin": 47.08474576271186
+	},
+	"normrank": {
+		"followers": 105.0,
+		"mentions": 1079.0,
+		"RTin": 1506.0
+	}
+}
+{
+	"_id": "3044710461",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "HillaryforAZ",
+	"url": "http://www.hillaryclinton.com/AZ",
+	"created_at": {
+		"$date": "2015-02-18T22:54:22.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 560.0,
+		"total": 24.0,
+		"RT": 15.0,
+		"original": 9.0
+	},
+	"followers": 2565,
+	"location": null,
+	"following": 711,
+	"favourites_count": 140,
+	"geo_enabled": true,
+	"id": "3044710461",
+	"trump": false,
+	"clinton": true,
+	"mentions": 1965.0,
+	"RTin": 5578.0,
+	"rank": {
+		"followers": 111830.5,
+		"mentions": 143.0,
+		"RTin": 105.0
+	},
+	"norm": {
+		"mentions": 218.33333333333334,
+		"RTin": 619.7777777777778
+	},
+	"normrank": {
+		"followers": 111830.5,
+		"mentions": 201.0,
+		"RTin": 121.0
+	}
+}
+{
+	"_id": "1084375028",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "JasonMillerinDC",
+	"url": "http://DonaldJTrump.com",
+	"created_at": {
+		"$date": "2013-01-12T23:03:43.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 10053.0,
+		"total": 21.0,
+		"RT": 10.0,
+		"original": 11.0
+	},
+	"followers": 42069,
+	"location": null,
+	"following": 2661,
+	"favourites_count": 1432,
+	"geo_enabled": true,
+	"id": "1084375028",
+	"clinton": true,
+	"trump": true,
+	"mentions": 2610.0,
+	"RTin": 5617.0,
+	"rank": {
+		"followers": 9064.0,
+		"mentions": 104.0,
+		"RTin": 104.0
+	},
+	"norm": {
+		"mentions": 237.27272727272728,
+		"RTin": 510.6363636363636
+	},
+	"normrank": {
+		"followers": 9064.0,
+		"mentions": 187.0,
+		"RTin": 154.0
+	}
+}
+{
+	"_id": "215762606",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "HeroAssange",
+	"url": null,
+	"created_at": {
+		"$date": "2010-11-14T21:07:50.000Z"
+	},
+	"time_zone": "London",
+	"tweets": {
+		"all": 2224.0,
+		"total": 794.0,
+		"RT": 681.0,
+		"original": 113.0
+	},
+	"followers": 2501,
+	"location": "United States",
+	"following": 1242,
+	"favourites_count": 1843,
+	"geo_enabled": true,
+	"id": "215762606",
+	"clinton": true,
+	"trump": true,
+	"mentions": 337.0,
+	"RTin": 5642.0,
+	"rank": {
+		"followers": 114603.5,
+		"mentions": 671.0,
+		"RTin": 103.0
+	},
+	"norm": {
+		"mentions": 2.982300884955752,
+		"RTin": 49.92920353982301
+	},
+	"normrank": {
+		"followers": 114603.5,
+		"mentions": 4951.333333333333,
+		"RTin": 1434.0
+	}
+}
+{
+	"_id": "2958642883",
+	"lang": "en-gb",
+	"verified": false,
+	"screen_name": "musicnews_facts",
+	"url": null,
+	"created_at": {
+		"$date": "2015-01-04T15:38:26.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 10306.0,
+		"total": 1.0,
+		"RT": 0.0,
+		"original": 1.0
+	},
+	"followers": 170399,
+	"location": "Not affiliated with any acc",
+	"following": 0,
+	"favourites_count": 81,
+	"geo_enabled": true,
+	"id": "2958642883",
+	"clinton": false,
+	"trump": true,
+	"mentions": 119.0,
+	"RTin": 5658.0,
+	"rank": {
+		"followers": 2559.0,
+		"mentions": 1766.5,
+		"RTin": 102.0
+	},
+	"norm": {
+		"mentions": 119.0,
+		"RTin": 5658.0
+	},
+	"normrank": {
+		"followers": 2559.0,
+		"mentions": 63364.166666666664,
+		"RTin": 7.0
+	}
+}
+{
+	"_id": "16303106",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "StephenAtHome",
+	"url": null,
+	"created_at": {
+		"$date": "2008-09-15T22:31:44.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 4166.0,
+		"total": 1.0,
+		"RT": 0.0,
+		"original": 1.0
+	},
+	"followers": 12092181,
+	"location": null,
+	"following": 24,
+	"favourites_count": 29,
+	"geo_enabled": false,
+	"id": "16303106",
+	"clinton": false,
+	"trump": true,
+	"mentions": 653.0,
+	"RTin": 5691.0,
+	"rank": {
+		"followers": 15.0,
+		"mentions": 359.0,
+		"RTin": 101.0
+	},
+	"norm": {
+		"mentions": 653.0,
+		"RTin": 5691.0
+	},
+	"normrank": {
+		"followers": 15.0,
+		"mentions": 158.33333333333334,
+		"RTin": 6.0
+	}
+}
+{
+	"_id": "3498448812",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "YoungDems4Trump",
+	"url": null,
+	"created_at": {
+		"$date": "2015-09-09T00:24:06.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 2993.0,
+		"total": 24.0,
+		"RT": 7.0,
+		"original": 17.0
+	},
+	"followers": 49767,
+	"location": "#YoungDemocratsForTrump",
+	"following": 9787,
+	"favourites_count": 5963,
+	"geo_enabled": true,
+	"id": "3498448812",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1596.0,
+	"RTin": 5859.0,
+	"rank": {
+		"followers": 7804.5,
+		"mentions": 170.0,
+		"RTin": 100.0
+	},
+	"norm": {
+		"mentions": 93.88235294117646,
+		"RTin": 344.6470588235294
+	},
+	"normrank": {
+		"followers": 7804.5,
+		"mentions": 452.0,
+		"RTin": 229.0
+	}
+}
+{
+	"_id": "4560016829",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "TrumpDynastyUSA",
+	"url": null,
+	"created_at": {
+		"$date": "2015-12-21T19:27:31.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 14777.0,
+		"total": 2000.0,
+		"RT": 1911.0,
+		"original": 89.0
+	},
+	"followers": 13467,
+	"location": "AMERICA...Land that I LOVE!",
+	"following": 68,
+	"favourites_count": 860,
+	"geo_enabled": false,
+	"id": "4560016829",
+	"clinton": true,
+	"trump": true,
+	"mentions": 903.0,
+	"RTin": 5872.0,
+	"rank": {
+		"followers": 24942.5,
+		"mentions": 288.0,
+		"RTin": 99.0
+	},
+	"norm": {
+		"mentions": 10.146067415730338,
+		"RTin": 65.97752808988764
+	},
+	"normrank": {
+		"followers": 24942.5,
+		"mentions": 3253.0,
+		"RTin": 1117.0
+	}
+}
+{
+	"_id": "10292132",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "joelpollak",
+	"url": "http://kingsprophets.com",
+	"created_at": {
+		"$date": "2007-11-16T02:42:42.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 37331.0,
+		"total": 59.0,
+		"RT": 5.0,
+		"original": 54.0
+	},
+	"followers": 23152,
+	"location": "Santa Monica, CA",
+	"following": 2772,
+	"favourites_count": 15,
+	"geo_enabled": true,
+	"id": "10292132",
+	"clinton": true,
+	"trump": true,
+	"mentions": 583.0,
+	"RTin": 6014.0,
+	"rank": {
+		"followers": 15157.5,
+		"mentions": 407.0,
+		"RTin": 98.0
+	},
+	"norm": {
+		"mentions": 10.796296296296296,
+		"RTin": 111.37037037037037
+	},
+	"normrank": {
+		"followers": 15157.5,
+		"mentions": 3160.0,
+		"RTin": 715.0
+	}
+}
+{
+	"_id": "74433034",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "DrGPradhan",
+	"url": "http://www.storify.com/drgpradhan",
+	"created_at": {
+		"$date": "2009-09-15T12:23:17.000Z"
+	},
+	"time_zone": "New Delhi",
+	"tweets": {
+		"all": 133152.0,
+		"total": 47.0,
+		"RT": 0.0,
+		"original": 47.0
+	},
+	"followers": 59980,
+	"location": "Seattle, WA",
+	"following": 2,
+	"favourites_count": 4826,
+	"geo_enabled": false,
+	"id": "74433034",
+	"clinton": true,
+	"trump": true,
+	"mentions": 262.0,
+	"RTin": 6044.0,
+	"rank": {
+		"followers": 6592.0,
+		"mentions": 844.5,
+		"RTin": 97.0
+	},
+	"norm": {
+		"mentions": 5.574468085106383,
+		"RTin": 128.59574468085106
+	},
+	"normrank": {
+		"followers": 6592.0,
+		"mentions": 2911.0,
+		"RTin": 617.0
+	}
+}
+{
+	"_id": "4334047641",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "theglobaluniter",
+	"url": "http://www.theglobaluniter.com",
+	"created_at": {
+		"$date": "2015-12-01T00:06:28.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 8160.0,
+		"total": 128.0,
+		"RT": 100.0,
+		"original": 28.0
+	},
+	"followers": 6170,
+	"location": "Orlando Florida area ",
+	"following": 2464,
+	"favourites_count": 9628,
+	"geo_enabled": true,
+	"id": "4334047641",
+	"clinton": true,
+	"trump": true,
+	"mentions": 292.0,
+	"RTin": 6110.0,
+	"rank": {
+		"followers": 50289.0,
+		"mentions": 769.5,
+		"RTin": 96.0
+	},
+	"norm": {
+		"mentions": 10.428571428571429,
+		"RTin": 218.21428571428572
+	},
+	"normrank": {
+		"followers": 50289.0,
+		"mentions": 1639.25,
+		"RTin": 368.0
+	}
+}
+{
+	"_id": "879220309",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "FUCCl",
+	"url": "http://www.fashionmansiongroup.com/",
+	"created_at": {
+		"$date": "2012-10-14T03:18:50.000Z"
+	},
+	"time_zone": "Atlantic Time (Canada)",
+	"tweets": {
+		"all": 166558.0,
+		"total": 5.0,
+		"RT": 2.0,
+		"original": 3.0
+	},
+	"followers": 34240,
+	"location": "Atlanta, GA",
+	"following": 996,
+	"favourites_count": 24956,
+	"geo_enabled": true,
+	"id": "879220309",
+	"clinton": false,
+	"trump": true,
+	"mentions": 58.0,
+	"RTin": 6155.0,
+	"rank": {
+		"followers": 10740.0,
+		"mentions": 3562.0,
+		"RTin": 95.0
+	},
+	"norm": {
+		"mentions": 19.333333333333332,
+		"RTin": 2051.6666666666665
+	},
+	"normrank": {
+		"followers": 10740.0,
+		"mentions": 70504.80327868853,
+		"RTin": 34.0
+	}
+}
+{
+	"_id": "52136185",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "MichaelCohen212",
+	"url": null,
+	"created_at": {
+		"$date": "2009-06-29T18:11:49.000Z"
+	},
+	"time_zone": "Atlantic Time (Canada)",
+	"tweets": {
+		"all": 7384.0,
+		"total": 95.0,
+		"RT": 55.0,
+		"original": 40.0
+	},
+	"followers": 103195,
+	"location": "New York",
+	"following": 103,
+	"favourites_count": 6095,
+	"geo_enabled": true,
+	"id": "52136185",
+	"clinton": true,
+	"trump": true,
+	"mentions": 3244.0,
+	"RTin": 6213.0,
+	"rank": {
+		"followers": 4148.5,
+		"mentions": 81.0,
+		"RTin": 94.0
+	},
+	"norm": {
+		"mentions": 81.1,
+		"RTin": 155.325
+	},
+	"normrank": {
+		"followers": 4148.5,
+		"mentions": 509.0,
+		"RTin": 524.0
+	}
+}
+{
+	"_id": "18646108",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "BretBaier",
+	"url": "http://www.bretbaier.com",
+	"created_at": {
+		"$date": "2009-01-05T21:05:43.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 44125.0,
+		"total": 20.0,
+		"RT": 4.0,
+		"original": 16.0
+	},
+	"followers": 849164,
+	"location": "Washington, DC",
+	"following": 6647,
+	"favourites_count": 1534,
+	"geo_enabled": false,
+	"id": "18646108",
+	"clinton": true,
+	"trump": true,
+	"mentions": 6915.0,
+	"RTin": 6231.0,
+	"rank": {
+		"followers": 582.0,
+		"mentions": 43.0,
+		"RTin": 93.0
+	},
+	"norm": {
+		"mentions": 432.1875,
+		"RTin": 389.4375
+	},
+	"normrank": {
+		"followers": 582.0,
+		"mentions": 100.0,
+		"RTin": 194.0
+	}
+}
+{
+	"_id": "35561326",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "Jonbuckhouse",
+	"url": "http://www.wsj.com/articles/samsung-holdouts-wont-give-up-their-fire-prone-galaxy-notes-1477488021",
+	"created_at": {
+		"$date": "2009-04-26T20:50:58.000Z"
+	},
+	"time_zone": "Central Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 3376.0,
+		"total": 12.0,
+		"RT": 9.0,
+		"original": 3.0
+	},
+	"followers": 132831,
+	"location": "Los Angeles, CA",
+	"following": 88,
+	"favourites_count": 336,
+	"geo_enabled": true,
+	"id": "35561326",
+	"clinton": true,
+	"trump": true,
+	"mentions": 10.0,
+	"RTin": 6314.0,
+	"rank": {
+		"followers": 3226.0,
+		"mentions": 19165.0,
+		"RTin": 92.0
+	},
+	"norm": {
+		"mentions": 3.3333333333333335,
+		"RTin": 2104.6666666666665
+	},
+	"normrank": {
+		"followers": 3226.0,
+		"mentions": 88751.61705989111,
+		"RTin": 33.0
+	}
+}
+{
+	"_id": "4851276082",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "jackbgoode1",
+	"url": null,
+	"created_at": {
+		"$date": "2016-01-26T21:41:58.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 13355.0,
+		"total": 675.0,
+		"RT": 0.0,
+		"original": 675.0
+	},
+	"followers": 22517,
+	"location": "Palm Beach, FL",
+	"following": 22725,
+	"favourites_count": 29973,
+	"geo_enabled": true,
+	"id": "4851276082",
+	"clinton": true,
+	"trump": true,
+	"mentions": 311.0,
+	"RTin": 6322.0,
+	"rank": {
+		"followers": 15555.5,
+		"mentions": 729.0,
+		"RTin": 91.0
+	},
+	"norm": {
+		"mentions": 0.46074074074074073,
+		"RTin": 9.365925925925925
+	},
+	"normrank": {
+		"followers": 15555.5,
+		"mentions": 32281.666666666668,
+		"RTin": 6409.0
+	}
+}
+{
+	"_id": "19608297",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "HRC",
+	"url": "http://hrc.org",
+	"created_at": {
+		"$date": "2009-01-27T18:55:38.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 19874.0,
+		"total": 80.0,
+		"RT": 14.0,
+		"original": 66.0
+	},
+	"followers": 632812,
+	"location": "Washington, DC",
+	"following": 178934,
+	"favourites_count": 7654,
+	"geo_enabled": true,
+	"id": "19608297",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1088.0,
+	"RTin": 6459.0,
+	"rank": {
+		"followers": 768.0,
+		"mentions": 244.0,
+		"RTin": 90.0
+	},
+	"norm": {
+		"mentions": 16.484848484848484,
+		"RTin": 97.86363636363636
+	},
+	"normrank": {
+		"followers": 768.0,
+		"mentions": 2152.0,
+		"RTin": 796.0
+	}
+}
+{
+	"_id": "75541946",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "LaraLeaTrump",
+	"url": "http://www.donaldjtrump.com",
+	"created_at": {
+		"$date": "2009-09-19T12:49:26.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 2444.0,
+		"total": 10.0,
+		"RT": 4.0,
+		"original": 6.0
+	},
+	"followers": 91508,
+	"location": "New York City",
+	"following": 372,
+	"favourites_count": 2810,
+	"geo_enabled": true,
+	"id": "75541946",
+	"clinton": false,
+	"trump": true,
+	"mentions": 4105.0,
+	"RTin": 6571.0,
+	"rank": {
+		"followers": 4656.0,
+		"mentions": 74.0,
+		"RTin": 89.0
+	},
+	"norm": {
+		"mentions": 684.1666666666666,
+		"RTin": 1095.1666666666667
+	},
+	"normrank": {
+		"followers": 4656.0,
+		"mentions": 63.0,
+		"RTin": 71.0
+	}
+}
+{
+	"_id": "158426909",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "Lawrence",
+	"url": "http://thelastword.msnbc.com",
+	"created_at": {
+		"$date": "2010-06-22T17:22:48.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 12685.0,
+		"total": 16.0,
+		"RT": 2.0,
+		"original": 14.0
+	},
+	"followers": 1102471,
+	"location": "New York, NY",
+	"following": 597,
+	"favourites_count": 6196,
+	"geo_enabled": false,
+	"id": "158426909",
+	"clinton": true,
+	"trump": true,
+	"mentions": 6122.0,
+	"RTin": 6789.0,
+	"rank": {
+		"followers": 450.0,
+		"mentions": 46.0,
+		"RTin": 88.0
+	},
+	"norm": {
+		"mentions": 437.2857142857143,
+		"RTin": 484.92857142857144
+	},
+	"normrank": {
+		"followers": 450.0,
+		"mentions": 99.0,
+		"RTin": 162.0
+	}
+}
+{
+	"_id": "39334221",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "pastormarkburns",
+	"url": "http://about.me/pastormarkburns",
+	"created_at": {
+		"$date": "2009-05-11T20:31:45.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 20768.0,
+		"total": 111.0,
+		"RT": 88.0,
+		"original": 23.0
+	},
+	"followers": 41388,
+	"location": "South Carolina",
+	"following": 297,
+	"favourites_count": 14871,
+	"geo_enabled": true,
+	"id": "39334221",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1301.0,
+	"RTin": 6900.0,
+	"rank": {
+		"followers": 9191.0,
+		"mentions": 206.0,
+		"RTin": 87.0
+	},
+	"norm": {
+		"mentions": 56.56521739130435,
+		"RTin": 300.0
+	},
+	"normrank": {
+		"followers": 9191.0,
+		"mentions": 723.0,
+		"RTin": 263.0
+	}
+}
+{
+	"_id": "281610530",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "Varneyco",
+	"url": "http://foxbusiness.com/varney",
+	"created_at": {
+		"$date": "2011-04-13T16:27:54.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 13541.0,
+		"total": 20.0,
+		"RT": 0.0,
+		"original": 20.0
+	},
+	"followers": 167579,
+	"location": "New York",
+	"following": 701,
+	"favourites_count": 894,
+	"geo_enabled": false,
+	"id": "281610530",
+	"clinton": true,
+	"trump": true,
+	"mentions": 2709.0,
+	"RTin": 6952.0,
+	"rank": {
+		"followers": 2598.0,
+		"mentions": 101.0,
+		"RTin": 86.0
+	},
+	"norm": {
+		"mentions": 135.45,
+		"RTin": 347.6
+	},
+	"normrank": {
+		"followers": 2598.0,
+		"mentions": 335.0,
+		"RTin": 224.0
+	}
+}
+{
+	"_id": "26657119",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "MoveOn",
+	"url": "http://MoveOn.org/?rc=tw.fol",
+	"created_at": {
+		"$date": "2009-03-26T01:43:36.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 26247.0,
+		"total": 227.0,
+		"RT": 4.0,
+		"original": 223.0
+	},
+	"followers": 181845,
+	"location": "USA",
+	"following": 1998,
+	"favourites_count": 1650,
+	"geo_enabled": true,
+	"id": "26657119",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1298.0,
+	"RTin": 6958.0,
+	"rank": {
+		"followers": 2436.0,
+		"mentions": 207.0,
+		"RTin": 85.0
+	},
+	"norm": {
+		"mentions": 5.820627802690583,
+		"RTin": 31.201793721973093
+	},
+	"normrank": {
+		"followers": 2436.0,
+		"mentions": 5562.0,
+		"RTin": 2163.0
+	}
+}
+{
+	"_id": "66336739",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "BBCUSElection",
+	"url": "http://www.bbc.co.uk/news/election/us2016",
+	"created_at": {
+		"$date": "2009-08-17T11:52:22.000Z"
+	},
+	"time_zone": "London",
+	"tweets": {
+		"all": 1861.0,
+		"total": 35.0,
+		"RT": 2.0,
+		"original": 33.0
+	},
+	"followers": 46153,
+	"location": "BBC Election bunker",
+	"following": 2,
+	"favourites_count": 2,
+	"geo_enabled": false,
+	"id": "66336739",
+	"clinton": true,
+	"trump": true,
+	"mentions": 373.0,
+	"RTin": 7081.0,
+	"rank": {
+		"followers": 8351.5,
+		"mentions": 613.0,
+		"RTin": 84.0
+	},
+	"norm": {
+		"mentions": 11.303030303030303,
+		"RTin": 214.57575757575756
+	},
+	"normrank": {
+		"followers": 8351.5,
+		"mentions": 1878.0,
+		"RTin": 371.0
+	}
+}
+{
+	"_id": "109065990",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "RealAlexJones",
+	"url": "http://www.infowars.com",
+	"created_at": {
+		"$date": "2010-01-27T21:42:26.000Z"
+	},
+	"time_zone": "Central Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 26346.0,
+		"total": 23.0,
+		"RT": 5.0,
+		"original": 18.0
+	},
+	"followers": 452741,
+	"location": "Austin, TX",
+	"following": 297,
+	"favourites_count": 4303,
+	"geo_enabled": false,
+	"id": "109065990",
+	"clinton": true,
+	"trump": true,
+	"mentions": 5734.0,
+	"RTin": 7095.0,
+	"rank": {
+		"followers": 1045.0,
+		"mentions": 48.0,
+		"RTin": 83.0
+	},
+	"norm": {
+		"mentions": 318.55555555555554,
+		"RTin": 394.1666666666667
+	},
+	"normrank": {
+		"followers": 1045.0,
+		"mentions": 140.0,
+		"RTin": 192.0
+	}
+}
+{
+	"_id": "139162440",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "pattonoswalt",
+	"url": "http://www.pattonoswalt.com",
+	"created_at": {
+		"$date": "2010-05-01T19:00:10.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 27787.0,
+		"total": 12.0,
+		"RT": 1.0,
+		"original": 11.0
+	},
+	"followers": 2972936,
+	"location": "Los Angeles",
+	"following": 2429,
+	"favourites_count": 15435,
+	"geo_enabled": false,
+	"id": "139162440",
+	"clinton": true,
+	"trump": true,
+	"mentions": 956.0,
+	"RTin": 7149.0,
+	"rank": {
+		"followers": 132.0,
+		"mentions": 274.0,
+		"RTin": 82.0
+	},
+	"norm": {
+		"mentions": 86.9090909090909,
+		"RTin": 649.9090909090909
+	},
+	"normrank": {
+		"followers": 132.0,
+		"mentions": 483.0,
+		"RTin": 114.0
+	}
+}
+{
+	"_id": "739050905413111808",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "trumpUni",
+	"url": null,
+	"created_at": {
+		"$date": "2016-06-04T11:07:21.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 8881.0,
+		"total": 341.0,
+		"RT": 273.0,
+		"original": 68.0
+	},
+	"followers": 16535,
+	"location": "Vladivostok, Russia",
+	"following": 4955,
+	"favourites_count": 12619,
+	"geo_enabled": false,
+	"id": "739050905413111808",
+	"clinton": true,
+	"trump": true,
+	"mentions": 321.0,
+	"RTin": 7176.0,
+	"rank": {
+		"followers": 20710.0,
+		"mentions": 704.0,
+		"RTin": 81.0
+	},
+	"norm": {
+		"mentions": 4.720588235294118,
+		"RTin": 105.52941176470588
+	},
+	"normrank": {
+		"followers": 20710.0,
+		"mentions": 3028.6666666666665,
+		"RTin": 753.0
+	}
+}
+{
+	"_id": "784126293545582592",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "BadassTexCowboy",
+	"url": null,
+	"created_at": {
+		"$date": "2016-10-06T20:20:51.000Z"
+	},
+	"time_zone": "America/Chicago",
+	"tweets": {
+		"all": 695.0,
+		"total": 296.0,
+		"RT": 118.0,
+		"original": 178.0
+	},
+	"followers": 130,
+	"location": null,
+	"following": 136,
+	"favourites_count": 0,
+	"geo_enabled": false,
+	"id": "784126293545582592",
+	"clinton": true,
+	"trump": true,
+	"mentions": 284.0,
+	"RTin": 7191.0,
+	"rank": {
+		"followers": 893478.5,
+		"mentions": 791.0,
+		"RTin": 80.0
+	},
+	"norm": {
+		"mentions": 1.595505617977528,
+		"RTin": 40.39887640449438
+	},
+	"normrank": {
+		"followers": 893478.5,
+		"mentions": 8165.333333333333,
+		"RTin": 1740.0
+	}
+}
+{
+	"_id": "31413847",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "sallybell26",
+	"url": null,
+	"created_at": {
+		"$date": "2009-04-15T14:04:11.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 5062.0,
+		"total": 15.0,
+		"RT": 10.0,
+		"original": 5.0
+	},
+	"followers": 547100,
+	"location": "Miami Beach Fl",
+	"following": 2638,
+	"favourites_count": 6932,
+	"geo_enabled": true,
+	"id": "31413847",
+	"trump": false,
+	"clinton": true,
+	"mentions": 5.0,
+	"RTin": 7297.0,
+	"rank": {
+		"followers": 877.0,
+		"mentions": 34887.5,
+		"RTin": 79.0
+	},
+	"norm": {
+		"mentions": 1.0,
+		"RTin": 1459.4
+	},
+	"normrank": {
+		"followers": 877.0,
+		"mentions": 104485.19636048526,
+		"RTin": 52.0
+	}
+}
+{
+	"_id": "782352298194239488",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "RiggedDebate",
+	"url": "http://www.riggeddebate.com/",
+	"created_at": {
+		"$date": "2016-10-01T22:51:38.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 503.0,
+		"total": 27.0,
+		"RT": 5.0,
+		"original": 22.0
+	},
+	"followers": 81,
+	"location": "United States",
+	"following": 96,
+	"favourites_count": 19,
+	"geo_enabled": false,
+	"id": "782352298194239488",
+	"clinton": true,
+	"trump": true,
+	"mentions": 2058.0,
+	"RTin": 7588.0,
+	"rank": {
+		"followers": 1.0042045e+06,
+		"mentions": 132.0,
+		"RTin": 78.0
+	},
+	"norm": {
+		"mentions": 93.54545454545455,
+		"RTin": 344.90909090909093
+	},
+	"normrank": {
+		"followers": 1.0042045e+06,
+		"mentions": 453.0,
+		"RTin": 228.0
+	}
+}
+{
+	"_id": "129235890",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "Lrihendry",
+	"url": "http://WWW.RedWhiteAndLori.com",
+	"created_at": {
+		"$date": "2010-04-03T16:27:01.000Z"
+	},
+	"time_zone": "Quito",
+	"tweets": {
+		"all": 208821.0,
+		"total": 139.0,
+		"RT": 113.0,
+		"original": 26.0
+	},
+	"followers": 108395,
+	"location": null,
+	"following": 10436,
+	"favourites_count": 46169,
+	"geo_enabled": true,
+	"id": "129235890",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1692.0,
+	"RTin": 7625.0,
+	"rank": {
+		"followers": 3935.0,
+		"mentions": 163.0,
+		"RTin": 77.0
+	},
+	"norm": {
+		"mentions": 65.07692307692308,
+		"RTin": 293.2692307692308
+	},
+	"normrank": {
+		"followers": 3935.0,
+		"mentions": 630.0,
+		"RTin": 273.0
+	}
+}
+{
+	"_id": "41634520",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "seanhannity",
+	"url": "http://hannity.com",
+	"created_at": {
+		"$date": "2009-05-21T17:41:12.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 32954.0,
+		"total": 6.0,
+		"RT": 0.0,
+		"original": 6.0
+	},
+	"followers": 1761043,
+	"location": "NYC",
+	"following": 6749,
+	"favourites_count": 106,
+	"geo_enabled": false,
+	"id": "41634520",
+	"clinton": true,
+	"trump": true,
+	"mentions": 39154.0,
+	"RTin": 7644.0,
+	"rank": {
+		"followers": 273.0,
+		"mentions": 7.0,
+		"RTin": 76.0
+	},
+	"norm": {
+		"mentions": 6525.666666666667,
+		"RTin": 1274.0
+	},
+	"normrank": {
+		"followers": 273.0,
+		"mentions": 7.0,
+		"RTin": 63.0
+	}
+}
+{
+	"_id": "742453163098296320",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "EmmaVigeland",
+	"url": null,
+	"created_at": {
+		"$date": "2016-06-13T20:26:43.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 1813.0,
+		"total": 40.0,
+		"RT": 5.0,
+		"original": 35.0
+	},
+	"followers": 7954,
+	"location": "New York, NY",
+	"following": 231,
+	"favourites_count": 1203,
+	"geo_enabled": false,
+	"id": "742453163098296320",
+	"clinton": true,
+	"trump": true,
+	"mentions": 779.0,
+	"RTin": 7648.0,
+	"rank": {
+		"followers": 40259.5,
+		"mentions": 319.0,
+		"RTin": 75.0
+	},
+	"norm": {
+		"mentions": 22.257142857142856,
+		"RTin": 218.5142857142857
+	},
+	"normrank": {
+		"followers": 40259.5,
+		"mentions": 1367.3333333333333,
+		"RTin": 366.0
+	}
+}
+{
+	"_id": "33750798",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "ScottWalker",
+	"url": "http://FriendsOfScottWalker.com",
+	"created_at": {
+		"$date": "2009-04-21T01:15:16.000Z"
+	},
+	"time_zone": "Central Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 8992.0,
+		"total": 1.0,
+		"RT": 0.0,
+		"original": 1.0
+	},
+	"followers": 240147,
+	"location": "Wisconsin, USA",
+	"following": 198,
+	"favourites_count": 13,
+	"geo_enabled": true,
+	"id": "33750798",
+	"clinton": true,
+	"trump": true,
+	"mentions": 12539.0,
+	"RTin": 7651.0,
+	"rank": {
+		"followers": 1874.0,
+		"mentions": 23.0,
+		"RTin": 74.0
+	},
+	"norm": {
+		"mentions": 12539.0,
+		"RTin": 7651.0
+	},
+	"normrank": {
+		"followers": 1874.0,
+		"mentions": 2.0,
+		"RTin": 3.0
+	}
+}
+{
+	"_id": "18464266",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "peterdaou",
+	"url": "http://peterdaou.com",
+	"created_at": {
+		"$date": "2008-12-30T00:21:14.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 38489.0,
+		"total": 40.0,
+		"RT": 17.0,
+		"original": 23.0
+	},
+	"followers": 35495,
+	"location": null,
+	"following": 965,
+	"favourites_count": 2145,
+	"geo_enabled": false,
+	"id": "18464266",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1425.0,
+	"RTin": 7683.0,
+	"rank": {
+		"followers": 10430.5,
+		"mentions": 188.0,
+		"RTin": 73.0
+	},
+	"norm": {
+		"mentions": 61.95652173913044,
+		"RTin": 334.04347826086956
+	},
+	"normrank": {
+		"followers": 10430.5,
+		"mentions": 1141.3333333333333,
+		"RTin": 235.0
+	}
+}
+{
+	"_id": "11744152",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "yashar",
+	"url": "http://www.facebook.com/currentyashar",
+	"created_at": {
+		"$date": "2008-01-02T06:55:39.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 9329.0,
+		"total": 14.0,
+		"RT": 10.0,
+		"original": 4.0
+	},
+	"followers": 7271,
+	"location": null,
+	"following": 4164,
+	"favourites_count": 7463,
+	"geo_enabled": false,
+	"id": "11744152",
+	"clinton": true,
+	"trump": true,
+	"mentions": 733.0,
+	"RTin": 7691.0,
+	"rank": {
+		"followers": 43512.5,
+		"mentions": 334.0,
+		"RTin": 72.0
+	},
+	"norm": {
+		"mentions": 183.25,
+		"RTin": 1922.75
+	},
+	"normrank": {
+		"followers": 43512.5,
+		"mentions": 246.0,
+		"RTin": 37.0
+	}
+}
+{
+	"_id": "357606935",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "elizabethforma",
+	"url": "http://ElizabethWarren.com/",
+	"created_at": {
+		"$date": "2011-08-18T16:43:48.000Z"
+	},
+	"time_zone": "Quito",
+	"tweets": {
+		"all": 1678.0,
+		"total": 4.0,
+		"RT": 0.0,
+		"original": 4.0
+	},
+	"followers": 813287,
+	"location": "Massachusetts",
+	"following": 298,
+	"favourites_count": 0,
+	"geo_enabled": false,
+	"id": "357606935",
+	"trump": false,
+	"clinton": true,
+	"mentions": 3026.0,
+	"RTin": 7759.0,
+	"rank": {
+		"followers": 609.0,
+		"mentions": 90.0,
+		"RTin": 71.0
+	},
+	"norm": {
+		"mentions": 756.5,
+		"RTin": 1939.75
+	},
+	"normrank": {
+		"followers": 609.0,
+		"mentions": 60.0,
+		"RTin": 36.0
+	}
+}
+{
+	"_id": "5402612",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "BBCBreaking",
+	"url": "http://www.bbc.co.uk/news",
+	"created_at": {
+		"$date": "2007-04-22T14:42:37.000Z"
+	},
+	"time_zone": "London",
+	"tweets": {
+		"all": 30194.0,
+		"total": 27.0,
+		"RT": 22.0,
+		"original": 5.0
+	},
+	"followers": 26634986,
+	"location": "London, UK",
+	"following": 3,
+	"favourites_count": 0,
+	"geo_enabled": false,
+	"id": "5402612",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1874.0,
+	"RTin": 7825.0,
+	"rank": {
+		"followers": 8.0,
+		"mentions": 148.0,
+		"RTin": 70.0
+	},
+	"norm": {
+		"mentions": 374.8,
+		"RTin": 1565.0
+	},
+	"normrank": {
+		"followers": 8.0,
+		"mentions": 119.0,
+		"RTin": 46.0
+	}
+}
+{
+	"_id": "15220768",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "DavidCornDC",
+	"url": "http://www.motherjones.com",
+	"created_at": {
+		"$date": "2008-06-24T15:58:28.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 46874.0,
+		"total": 24.0,
+		"RT": 10.0,
+		"original": 14.0
+	},
+	"followers": 253044,
+	"location": "Washington, DC",
+	"following": 1252,
+	"favourites_count": 79,
+	"geo_enabled": true,
+	"id": "15220768",
+	"clinton": true,
+	"trump": true,
+	"mentions": 2666.0,
+	"RTin": 7854.0,
+	"rank": {
+		"followers": 1792.0,
+		"mentions": 102.0,
+		"RTin": 69.0
+	},
+	"norm": {
+		"mentions": 190.42857142857142,
+		"RTin": 561.0
+	},
+	"normrank": {
+		"followers": 1792.0,
+		"mentions": 236.0,
+		"RTin": 135.0
+	}
+}
+{
+	"_id": "2417586104",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "SebGorka",
+	"url": "http://TheGorkaBriefing.com",
+	"created_at": {
+		"$date": "2014-03-29T15:31:11.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 15216.0,
+		"total": 74.0,
+		"RT": 35.0,
+		"original": 39.0
+	},
+	"followers": 55184,
+	"location": null,
+	"following": 970,
+	"favourites_count": 14426,
+	"geo_enabled": true,
+	"id": "2417586104",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1566.0,
+	"RTin": 7929.0,
+	"rank": {
+		"followers": 7118.0,
+		"mentions": 174.0,
+		"RTin": 68.0
+	},
+	"norm": {
+		"mentions": 40.15384615384615,
+		"RTin": 203.30769230769232
+	},
+	"normrank": {
+		"followers": 7118.0,
+		"mentions": 989.0,
+		"RTin": 391.0
+	}
+}
+{
+	"_id": "118845216",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "SheriffClarke",
+	"url": "http://ThePeoplesSheriff.com",
+	"created_at": {
+		"$date": "2010-03-01T22:39:39.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 9856.0,
+		"total": 3.0,
+		"RT": 0.0,
+		"original": 3.0
+	},
+	"followers": 339022,
+	"location": "Milwaukee, WI",
+	"following": 121,
+	"favourites_count": 2762,
+	"geo_enabled": true,
+	"id": "118845216",
+	"clinton": true,
+	"trump": true,
+	"mentions": 4994.0,
+	"RTin": 7973.0,
+	"rank": {
+		"followers": 1362.0,
+		"mentions": 59.0,
+		"RTin": 67.0
+	},
+	"norm": {
+		"mentions": 1664.6666666666667,
+		"RTin": 2657.6666666666665
+	},
+	"normrank": {
+		"followers": 1362.0,
+		"mentions": 34.0,
+		"RTin": 22.0
+	}
+}
+{
+	"_id": "19017675",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "Nigel_Farage",
+	"url": "http://ukip.org",
+	"created_at": {
+		"$date": "2009-01-15T10:37:07.000Z"
+	},
+	"time_zone": "London",
+	"tweets": {
+		"all": 10555.0,
+		"total": 6.0,
+		"RT": 0.0,
+		"original": 6.0
+	},
+	"followers": 500419,
+	"location": null,
+	"following": 293,
+	"favourites_count": 12,
+	"geo_enabled": false,
+	"id": "19017675",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1873.0,
+	"RTin": 8040.0,
+	"rank": {
+		"followers": 945.0,
+		"mentions": 149.0,
+		"RTin": 66.0
+	},
+	"norm": {
+		"mentions": 312.1666666666667,
+		"RTin": 1340.0
+	},
+	"normrank": {
+		"followers": 945.0,
+		"mentions": 143.0,
+		"RTin": 57.0
+	}
+}
+{
+	"_id": "931286316",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "ScottPresler",
+	"url": "https://www.lyingcrookedhillary.com/",
+	"created_at": {
+		"$date": "2012-11-07T05:23:07.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 33116.0,
+		"total": 67.0,
+		"RT": 23.0,
+		"original": 44.0
+	},
+	"followers": 38905,
+	"location": "Virginia Beach, VA",
+	"following": 28807,
+	"favourites_count": 36845,
+	"geo_enabled": true,
+	"id": "931286316",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1579.0,
+	"RTin": 8051.0,
+	"rank": {
+		"followers": 9688.0,
+		"mentions": 173.0,
+		"RTin": 65.0
+	},
+	"norm": {
+		"mentions": 35.88636363636363,
+		"RTin": 182.97727272727272
+	},
+	"normrank": {
+		"followers": 9688.0,
+		"mentions": 1095.0,
+		"RTin": 445.0
+	}
+}
+{
+	"_id": "2240756971",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "CorrectRecord",
+	"url": "http://www.correctrecord.org",
+	"created_at": {
+		"$date": "2013-12-11T13:02:51.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 13615.0,
+		"total": 137.0,
+		"RT": 21.0,
+		"original": 116.0
+	},
+	"followers": 24679,
+	"location": null,
+	"following": 231,
+	"favourites_count": 26,
+	"geo_enabled": false,
+	"id": "2240756971",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1287.0,
+	"RTin": 8125.0,
+	"rank": {
+		"followers": 14286.5,
+		"mentions": 210.0,
+		"RTin": 64.0
+	},
+	"norm": {
+		"mentions": 11.094827586206897,
+		"RTin": 70.04310344827586
+	},
+	"normrank": {
+		"followers": 14286.5,
+		"mentions": 2999.0,
+		"RTin": 1064.0
+	}
+}
+{
+	"_id": "5509762",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "SarahHuckabee",
+	"url": "http://secondstreetstrategies.com",
+	"created_at": {
+		"$date": "2007-04-25T22:00:29.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 3056.0,
+		"total": 83.0,
+		"RT": 40.0,
+		"original": 43.0
+	},
+	"followers": 13904,
+	"location": "Arkansas",
+	"following": 2252,
+	"favourites_count": 423,
+	"geo_enabled": false,
+	"id": "5509762",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1079.0,
+	"RTin": 8154.0,
+	"rank": {
+		"followers": 24211.0,
+		"mentions": 249.0,
+		"RTin": 63.0
+	},
+	"norm": {
+		"mentions": 25.093023255813954,
+		"RTin": 189.62790697674419
+	},
+	"normrank": {
+		"followers": 24211.0,
+		"mentions": 1494.0,
+		"RTin": 427.0
+	}
+}
+{
+	"_id": "78523300",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "RealJamesWoods",
+	"url": null,
+	"created_at": {
+		"$date": "2009-09-30T05:31:28.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 13264.0,
+		"total": 6.0,
+		"RT": 1.0,
+		"original": 5.0
+	},
+	"followers": 464113,
+	"location": null,
+	"following": 4404,
+	"favourites_count": 74,
+	"geo_enabled": true,
+	"id": "78523300",
+	"clinton": true,
+	"trump": true,
+	"mentions": 4640.0,
+	"RTin": 8222.0,
+	"rank": {
+		"followers": 1017.0,
+		"mentions": 65.0,
+		"RTin": 62.0
+	},
+	"norm": {
+		"mentions": 928.0,
+		"RTin": 1644.4
+	},
+	"normrank": {
+		"followers": 1017.0,
+		"mentions": 49.0,
+		"RTin": 43.0
+	}
+}
+{
+	"_id": "336190254",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "DamiraMaricic",
+	"url": "http://www.DamiraMaricicPhotography.com",
+	"created_at": {
+		"$date": "2011-07-15T21:57:02.000Z"
+	},
+	"time_zone": "Quito",
+	"tweets": {
+		"all": 15507.0,
+		"total": 9.0,
+		"RT": 1.0,
+		"original": 8.0
+	},
+	"followers": 44804,
+	"location": "USA / Europe ",
+	"following": 45918,
+	"favourites_count": 480,
+	"geo_enabled": false,
+	"id": "336190254",
+	"clinton": true,
+	"trump": true,
+	"mentions": 49.0,
+	"RTin": 8225.0,
+	"rank": {
+		"followers": 8584.0,
+		"mentions": 4154.0,
+		"RTin": 61.0
+	},
+	"norm": {
+		"mentions": 6.125,
+		"RTin": 1028.125
+	},
+	"normrank": {
+		"followers": 8584.0,
+		"mentions": 52446.61038961039,
+		"RTin": 75.0
+	}
+}
+{
+	"_id": "959728592",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "JHurley_Tweets",
+	"url": null,
+	"created_at": {
+		"$date": "2012-11-20T05:16:26.000Z"
+	},
+	"time_zone": "Karachi",
+	"tweets": {
+		"all": 9301.0,
+		"total": 411.0,
+		"RT": 322.0,
+		"original": 89.0
+	},
+	"followers": 21444,
+	"location": "Chicago, IL",
+	"following": 46,
+	"favourites_count": 2154,
+	"geo_enabled": true,
+	"id": "959728592",
+	"clinton": true,
+	"trump": true,
+	"mentions": 543.0,
+	"RTin": 8390.0,
+	"rank": {
+		"followers": 16296.0,
+		"mentions": 433.0,
+		"RTin": 60.0
+	},
+	"norm": {
+		"mentions": 6.101123595505618,
+		"RTin": 94.26966292134831
+	},
+	"normrank": {
+		"followers": 16296.0,
+		"mentions": 5014.0,
+		"RTin": 820.0
+	}
+}
+{
+	"_id": "3118705906",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "joshgremillion",
+	"url": "http://students4trump.com",
+	"created_at": {
+		"$date": "2015-03-26T13:58:18.000Z"
+	},
+	"time_zone": "Central Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 1145.0,
+		"total": 18.0,
+		"RT": 1.0,
+		"original": 17.0
+	},
+	"followers": 29970,
+	"location": "Houston, TX",
+	"following": 415,
+	"favourites_count": 5800,
+	"geo_enabled": true,
+	"id": "3118705906",
+	"clinton": false,
+	"trump": true,
+	"mentions": 584.0,
+	"RTin": 8498.0,
+	"rank": {
+		"followers": 12089.0,
+		"mentions": 406.0,
+		"RTin": 59.0
+	},
+	"norm": {
+		"mentions": 34.35294117647059,
+		"RTin": 499.88235294117646
+	},
+	"normrank": {
+		"followers": 12089.0,
+		"mentions": 1137.0,
+		"RTin": 158.0
+	}
+}
+{
+	"_id": "11134252",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "GOP",
+	"url": "http://LeadRight2016.com",
+	"created_at": {
+		"$date": "2007-12-13T17:15:41.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 24771.0,
+		"total": 16.0,
+		"RT": 0.0,
+		"original": 16.0
+	},
+	"followers": 939426,
+	"location": "Washington, DC",
+	"following": 1657,
+	"favourites_count": 297,
+	"geo_enabled": false,
+	"id": "11134252",
+	"clinton": true,
+	"trump": true,
+	"mentions": 15158.0,
+	"RTin": 8562.0,
+	"rank": {
+		"followers": 529.0,
+		"mentions": 19.0,
+		"RTin": 58.0
+	},
+	"norm": {
+		"mentions": 947.375,
+		"RTin": 535.125
+	},
+	"normrank": {
+		"followers": 529.0,
+		"mentions": 47.0,
+		"RTin": 144.0
+	}
+}
+{
+	"_id": "1873929764",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "kupajo322",
+	"url": null,
+	"created_at": {
+		"$date": "2013-09-17T03:13:02.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 64464.0,
+		"total": 1198.0,
+		"RT": 200.0,
+		"original": 998.0
+	},
+	"followers": 22054,
+	"location": "New England - California",
+	"following": 222,
+	"favourites_count": 33606,
+	"geo_enabled": true,
+	"id": "1873929764",
+	"clinton": true,
+	"trump": true,
+	"mentions": 2188.0,
+	"RTin": 9026.0,
+	"rank": {
+		"followers": 15874.0,
+		"mentions": 126.0,
+		"RTin": 57.0
+	},
+	"norm": {
+		"mentions": 2.1923847695390783,
+		"RTin": 9.044088176352705
+	},
+	"normrank": {
+		"followers": 15874.0,
+		"mentions": 14357.0,
+		"RTin": 6477.0
+	}
+}
+{
+	"_id": "2167674121",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "CarmineZozzora",
+	"url": null,
+	"created_at": {
+		"$date": "2013-11-01T03:24:23.000Z"
+	},
+	"time_zone": "Central Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 349085.0,
+		"total": 367.0,
+		"RT": 224.0,
+		"original": 143.0
+	},
+	"followers": 166586,
+	"location": "Trump is America's last shot.",
+	"following": 37207,
+	"favourites_count": 334128,
+	"geo_enabled": false,
+	"id": "2167674121",
+	"clinton": true,
+	"trump": true,
+	"mentions": 2264.0,
+	"RTin": 9211.0,
+	"rank": {
+		"followers": 2610.0,
+		"mentions": 118.0,
+		"RTin": 56.0
+	},
+	"norm": {
+		"mentions": 15.832167832167832,
+		"RTin": 64.41258741258741
+	},
+	"normrank": {
+		"followers": 2610.0,
+		"mentions": 2241.0,
+		"RTin": 1137.0
+	}
+}
+{
+	"_id": "46176168",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "MajorCBS",
+	"url": null,
+	"created_at": {
+		"$date": "2009-06-10T17:50:33.000Z"
+	},
+	"time_zone": "Quito",
+	"tweets": {
+		"all": 21286.0,
+		"total": 60.0,
+		"RT": 0.0,
+		"original": 60.0
+	},
+	"followers": 146142,
+	"location": "Washington, DC",
+	"following": 2196,
+	"favourites_count": 721,
+	"geo_enabled": true,
+	"id": "46176168",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1737.0,
+	"RTin": 9367.0,
+	"rank": {
+		"followers": 2927.0,
+		"mentions": 157.0,
+		"RTin": 55.0
+	},
+	"norm": {
+		"mentions": 28.95,
+		"RTin": 156.11666666666667
+	},
+	"normrank": {
+		"followers": 2927.0,
+		"mentions": 1337.0,
+		"RTin": 519.0
+	}
+}
+{
+	"_id": "17980523",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "mitchellvii",
+	"url": "https://www.yourvoiceradio.com",
+	"created_at": {
+		"$date": "2008-12-09T01:54:21.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 73807.0,
+		"total": 46.0,
+		"RT": 29.0,
+		"original": 17.0
+	},
+	"followers": 120044,
+	"location": "Charlotte, NC",
+	"following": 8250,
+	"favourites_count": 14550,
+	"geo_enabled": false,
+	"id": "17980523",
+	"clinton": true,
+	"trump": true,
+	"mentions": 9915.0,
+	"RTin": 9381.0,
+	"rank": {
+		"followers": 3576.0,
+		"mentions": 31.0,
+		"RTin": 54.0
+	},
+	"norm": {
+		"mentions": 583.2352941176471,
+		"RTin": 551.8235294117648
+	},
+	"normrank": {
+		"followers": 3576.0,
+		"mentions": 78.0,
+		"RTin": 139.0
+	}
+}
+{
+	"_id": "18228898",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "johnlegend",
+	"url": "http://johnlegend.com",
+	"created_at": {
+		"$date": "2008-12-18T23:42:30.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 9603.0,
+		"total": 2.0,
+		"RT": 0.0,
+		"original": 2.0
+	},
+	"followers": 8358038,
+	"location": "New York, NY, USA",
+	"following": 751,
+	"favourites_count": 2839,
+	"geo_enabled": false,
+	"id": "18228898",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1537.0,
+	"RTin": 9547.0,
+	"rank": {
+		"followers": 28.0,
+		"mentions": 179.0,
+		"RTin": 53.0
+	},
+	"norm": {
+		"mentions": 768.5,
+		"RTin": 4773.5
+	},
+	"normrank": {
+		"followers": 28.0,
+		"mentions": 57.0,
+		"RTin": 10.0
+	}
+}
+{
+	"_id": "750446646165635072",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "r4c16",
+	"url": "http://www.R4C16.org",
+	"created_at": {
+		"$date": "2016-07-05T21:49:57.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 676.0,
+		"total": 11.0,
+		"RT": 2.0,
+		"original": 9.0
+	},
+	"followers": 1674,
+	"location": "United States",
+	"following": 150,
+	"favourites_count": 224,
+	"geo_enabled": false,
+	"id": "750446646165635072",
+	"clinton": true,
+	"trump": true,
+	"mentions": 25.0,
+	"RTin": 9613.0,
+	"rank": {
+		"followers": 167290.5,
+		"mentions": 8019.0,
+		"RTin": 52.0
+	},
+	"norm": {
+		"mentions": 2.7777777777777777,
+		"RTin": 1068.111111111111
+	},
+	"normrank": {
+		"followers": 167290.5,
+		"mentions": 63291.94888178914,
+		"RTin": 72.0
+	}
+}
+{
+	"_id": "20713061",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "newtgingrich",
+	"url": "http://www.gingrichproductions.com/",
+	"created_at": {
+		"$date": "2009-02-12T20:18:08.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 9332.0,
+		"total": 6.0,
+		"RT": 1.0,
+		"original": 5.0
+	},
+	"followers": 1714493,
+	"location": null,
+	"following": 878,
+	"favourites_count": 532,
+	"geo_enabled": false,
+	"id": "20713061",
+	"clinton": true,
+	"trump": true,
+	"mentions": 7650.0,
+	"RTin": 9975.0,
+	"rank": {
+		"followers": 281.0,
+		"mentions": 38.0,
+		"RTin": 51.0
+	},
+	"norm": {
+		"mentions": 1530.0,
+		"RTin": 1995.0
+	},
+	"normrank": {
+		"followers": 281.0,
+		"mentions": 36.0,
+		"RTin": 35.0
+	}
+}
+{
+	"_id": "447456943",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "joe012594",
+	"url": "http://gab.ai/JoePalmer",
+	"created_at": {
+		"$date": "2011-12-26T22:38:38.000Z"
+	},
+	"time_zone": "Central Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 20708.0,
+		"total": 29.0,
+		"RT": 10.0,
+		"original": 19.0
+	},
+	"followers": 2087,
+	"location": "Dallas, Texas",
+	"following": 169,
+	"favourites_count": 7160,
+	"geo_enabled": false,
+	"id": "447456943",
+	"clinton": true,
+	"trump": true,
+	"mentions": 501.0,
+	"RTin": 10004.0,
+	"rank": {
+		"followers": 136119.0,
+		"mentions": 460.0,
+		"RTin": 50.0
+	},
+	"norm": {
+		"mentions": 26.36842105263158,
+		"RTin": 526.5263157894736
+	},
+	"normrank": {
+		"followers": 136119.0,
+		"mentions": 345492.8,
+		"RTin": 148.0
+	}
+}
+{
+	"_id": "282695161",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "WayneDupreeShow",
+	"url": "https://www.youtube.com/c/WayneDupreeShow1",
+	"created_at": {
+		"$date": "2011-04-15T18:32:32.000Z"
+	},
+	"time_zone": "America/New_York",
+	"tweets": {
+		"all": 199555.0,
+		"total": 39.0,
+		"RT": 8.0,
+		"original": 31.0
+	},
+	"followers": 138833,
+	"location": "USAF Gulf War Veteran",
+	"following": 10722,
+	"favourites_count": 32492,
+	"geo_enabled": true,
+	"id": "282695161",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1942.0,
+	"RTin": 10136.0,
+	"rank": {
+		"followers": 3090.0,
+		"mentions": 144.0,
+		"RTin": 49.0
+	},
+	"norm": {
+		"mentions": 62.645161290322584,
+		"RTin": 326.96774193548384
+	},
+	"normrank": {
+		"followers": 3090.0,
+		"mentions": 659.0,
+		"RTin": 241.0
+	}
+}
+{
+	"_id": "20776147",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "seanspicer",
+	"url": "https://www.seanspicer.com",
+	"created_at": {
+		"$date": "2009-02-13T15:06:14.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 16050.0,
+		"total": 44.0,
+		"RT": 2.0,
+		"original": 42.0
+	},
+	"followers": 38978,
+	"location": null,
+	"following": 979,
+	"favourites_count": 1162,
+	"geo_enabled": false,
+	"id": "20776147",
+	"clinton": true,
+	"trump": true,
+	"mentions": 2119.0,
+	"RTin": 10710.0,
+	"rank": {
+		"followers": 9676.0,
+		"mentions": 127.0,
+		"RTin": 48.0
+	},
+	"norm": {
+		"mentions": 50.45238095238095,
+		"RTin": 255.0
+	},
+	"normrank": {
+		"followers": 9676.0,
+		"mentions": 802.0,
+		"RTin": 314.0
+	}
+}
+{
+	"_id": "91882544",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "DineshDSouza",
+	"url": "http://www.hillarysamericathemovie.com/#dvd",
+	"created_at": {
+		"$date": "2009-11-22T22:32:41.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 13453.0,
+		"total": 40.0,
+		"RT": 25.0,
+		"original": 15.0
+	},
+	"followers": 372718,
+	"location": "United States",
+	"following": 4191,
+	"favourites_count": 524,
+	"geo_enabled": true,
+	"id": "91882544",
+	"clinton": true,
+	"trump": true,
+	"mentions": 2830.0,
+	"RTin": 10979.0,
+	"rank": {
+		"followers": 1252.0,
+		"mentions": 96.5,
+		"RTin": 47.0
+	},
+	"norm": {
+		"mentions": 188.66666666666666,
+		"RTin": 731.9333333333333
+	},
+	"normrank": {
+		"followers": 1252.0,
+		"mentions": 248.0,
+		"RTin": 104.0
+	}
+}
+{
+	"_id": "38497702",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "dmartosko",
+	"url": "http://DailyMail.com",
+	"created_at": {
+		"$date": "2009-05-07T19:28:31.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 31958.0,
+		"total": 29.0,
+		"RT": 5.0,
+		"original": 24.0
+	},
+	"followers": 27586,
+	"location": "Washington, DC",
+	"following": 788,
+	"favourites_count": 0,
+	"geo_enabled": true,
+	"id": "38497702",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1375.0,
+	"RTin": 11114.0,
+	"rank": {
+		"followers": 13027.0,
+		"mentions": 195.0,
+		"RTin": 46.0
+	},
+	"norm": {
+		"mentions": 57.291666666666664,
+		"RTin": 463.0833333333333
+	},
+	"normrank": {
+		"followers": 13027.0,
+		"mentions": 715.0,
+		"RTin": 170.0
+	}
+}
+{
+	"_id": "20733972",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "Reince",
+	"url": "http://www.gop.com",
+	"created_at": {
+		"$date": "2009-02-13T00:07:00.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 10563.0,
+		"total": 2.0,
+		"RT": 0.0,
+		"original": 2.0
+	},
+	"followers": 503552,
+	"location": "Kenosha, WI and Washington, DC",
+	"following": 359,
+	"favourites_count": 28,
+	"geo_enabled": true,
+	"id": "20733972",
+	"trump": false,
+	"clinton": true,
+	"mentions": 7253.0,
+	"RTin": 11405.0,
+	"rank": {
+		"followers": 940.0,
+		"mentions": 39.0,
+		"RTin": 45.0
+	},
+	"norm": {
+		"mentions": 3626.5,
+		"RTin": 5702.5
+	},
+	"normrank": {
+		"followers": 940.0,
+		"mentions": 14.0,
+		"RTin": 5.0
+	}
+}
+{
+	"_id": "4065725475",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "Trumptbird",
+	"url": null,
+	"created_at": {
+		"$date": "2015-10-29T05:50:02.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 11273.0,
+		"total": 89.0,
+		"RT": 28.0,
+		"original": 61.0
+	},
+	"followers": 17925,
+	"location": "U.S.A.",
+	"following": 8604,
+	"favourites_count": 9202,
+	"geo_enabled": false,
+	"id": "4065725475",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1922.0,
+	"RTin": 11630.0,
+	"rank": {
+		"followers": 19215.0,
+		"mentions": 146.0,
+		"RTin": 44.0
+	},
+	"norm": {
+		"mentions": 31.508196721311474,
+		"RTin": 190.65573770491804
+	},
+	"normrank": {
+		"followers": 19215.0,
+		"mentions": 1219.0,
+		"RTin": 423.0
+	}
+}
+{
+	"_id": "757029661289304064",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "alaskantexanQCT",
+	"url": null,
+	"created_at": {
+		"$date": "2016-07-24T01:48:30.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 3125.0,
+		"total": 52.0,
+		"RT": 14.0,
+		"original": 38.0
+	},
+	"followers": 4350,
+	"location": null,
+	"following": 93,
+	"favourites_count": 408,
+	"geo_enabled": false,
+	"id": "757029661289304064",
+	"clinton": true,
+	"trump": true,
+	"mentions": 979.0,
+	"RTin": 11631.0,
+	"rank": {
+		"followers": 68348.5,
+		"mentions": 270.0,
+		"RTin": 43.0
+	},
+	"norm": {
+		"mentions": 25.763157894736842,
+		"RTin": 306.07894736842104
+	},
+	"normrank": {
+		"followers": 68348.5,
+		"mentions": 1484.0,
+		"RTin": 257.0
+	}
+}
+{
+	"_id": "2795404498",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "PVeritas_Action",
+	"url": "http://projectveritasaction.com",
+	"created_at": {
+		"$date": "2014-09-30T16:18:49.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 1937.0,
+		"total": 27.0,
+		"RT": 12.0,
+		"original": 15.0
+	},
+	"followers": 37879,
+	"location": "United States of America",
+	"following": 261,
+	"favourites_count": 870,
+	"geo_enabled": false,
+	"id": "2795404498",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1064.0,
+	"RTin": 11966.0,
+	"rank": {
+		"followers": 9875.0,
+		"mentions": 252.5,
+		"RTin": 42.0
+	},
+	"norm": {
+		"mentions": 70.93333333333334,
+		"RTin": 797.7333333333333
+	},
+	"normrank": {
+		"followers": 9875.0,
+		"mentions": 420.0,
+		"RTin": 94.0
+	}
+}
+{
+	"_id": "3306629815",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "AmericanMex067",
+	"url": null,
+	"created_at": {
+		"$date": "2015-08-05T04:16:15.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 36428.0,
+		"total": 128.0,
+		"RT": 113.0,
+		"original": 15.0
+	},
+	"followers": 33863,
+	"location": "Everywhere, USA",
+	"following": 3118,
+	"favourites_count": 27062,
+	"geo_enabled": true,
+	"id": "3306629815",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1028.0,
+	"RTin": 12185.0,
+	"rank": {
+		"followers": 10842.0,
+		"mentions": 259.0,
+		"RTin": 41.0
+	},
+	"norm": {
+		"mentions": 68.53333333333333,
+		"RTin": 812.3333333333334
+	},
+	"normrank": {
+		"followers": 10842.0,
+		"mentions": 604.0,
+		"RTin": 92.0
+	}
+}
+{
+	"_id": "611986351",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "KimDotcom",
+	"url": "http://www.kim.com",
+	"created_at": {
+		"$date": "2012-06-18T20:43:31.000Z"
+	},
+	"time_zone": "Auckland",
+	"tweets": {
+		"all": 14701.0,
+		"total": 4.0,
+		"RT": 1.0,
+		"original": 3.0
+	},
+	"followers": 550406,
+	"location": "Contact: twitter@kim.com ",
+	"following": 17519,
+	"favourites_count": 60,
+	"geo_enabled": false,
+	"id": "611986351",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1772.0,
+	"RTin": 12553.0,
+	"rank": {
+		"followers": 873.0,
+		"mentions": 154.0,
+		"RTin": 40.0
+	},
+	"norm": {
+		"mentions": 590.6666666666666,
+		"RTin": 4184.333333333333
+	},
+	"normrank": {
+		"followers": 873.0,
+		"mentions": 76.0,
+		"RTin": 11.0
+	}
+}
+{
+	"_id": "16815644",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "ABCPolitics",
+	"url": "http://abcnews.go.com/politics",
+	"created_at": {
+		"$date": "2008-10-16T22:43:16.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 65165.0,
+		"total": 102.0,
+		"RT": 25.0,
+		"original": 77.0
+	},
+	"followers": 264370,
+	"location": "Washington, DC",
+	"following": 494,
+	"favourites_count": 61,
+	"geo_enabled": false,
+	"id": "16815644",
+	"clinton": true,
+	"trump": true,
+	"mentions": 9100.0,
+	"RTin": 12796.0,
+	"rank": {
+		"followers": 1715.0,
+		"mentions": 33.0,
+		"RTin": 39.0
+	},
+	"norm": {
+		"mentions": 118.18181818181819,
+		"RTin": 166.1818181818182
+	},
+	"normrank": {
+		"followers": 1715.0,
+		"mentions": 378.0,
+		"RTin": 478.0
+	}
+}
+{
+	"_id": "23199714",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "syeddoha",
+	"url": "http://www.bdfic.com",
+	"created_at": {
+		"$date": "2009-03-07T15:05:13.000Z"
+	},
+	"time_zone": "Mountain Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 499.0,
+		"total": 21.0,
+		"RT": 3.0,
+		"original": 18.0
+	},
+	"followers": 398147,
+	"location": "Sagaponack, NY",
+	"following": 1130,
+	"favourites_count": 74,
+	"geo_enabled": true,
+	"id": "23199714",
+	"clinton": true,
+	"trump": true,
+	"mentions": 101.0,
+	"RTin": 13282.0,
+	"rank": {
+		"followers": 1178.0,
+		"mentions": 2055.5,
+		"RTin": 38.0
+	},
+	"norm": {
+		"mentions": 5.611111111111111,
+		"RTin": 737.8888888888889
+	},
+	"normrank": {
+		"followers": 1178.0,
+		"mentions": 66392.5,
+		"RTin": 102.0
+	}
+}
+{
+	"_id": "29458079",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "JudgeJeanine",
+	"url": "http://www.foxnews.com/on-air/justice-jeanine/",
+	"created_at": {
+		"$date": "2009-04-07T14:27:06.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 12876.0,
+		"total": 11.0,
+		"RT": 5.0,
+		"original": 6.0
+	},
+	"followers": 329640,
+	"location": "New York",
+	"following": 370,
+	"favourites_count": 89,
+	"geo_enabled": true,
+	"id": "29458079",
+	"clinton": true,
+	"trump": true,
+	"mentions": 10610.0,
+	"RTin": 14132.0,
+	"rank": {
+		"followers": 1397.0,
+		"mentions": 27.0,
+		"RTin": 37.0
+	},
+	"norm": {
+		"mentions": 1768.3333333333333,
+		"RTin": 2355.3333333333335
+	},
+	"normrank": {
+		"followers": 1397.0,
+		"mentions": 31.0,
+		"RTin": 29.0
+	}
+}
+{
+	"_id": "705902960967094272",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "USAforTrump2016",
+	"url": "http://GoFundMe.com/TrumpGeofilters",
+	"created_at": {
+		"$date": "2016-03-04T23:49:15.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 12817.0,
+		"total": 84.0,
+		"RT": 22.0,
+		"original": 62.0
+	},
+	"followers": 68567,
+	"location": "TRUMP HQ",
+	"following": 347,
+	"favourites_count": 11753,
+	"geo_enabled": false,
+	"id": "705902960967094272",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1760.0,
+	"RTin": 14344.0,
+	"rank": {
+		"followers": 5867.0,
+		"mentions": 156.0,
+		"RTin": 36.0
+	},
+	"norm": {
+		"mentions": 28.387096774193548,
+		"RTin": 231.3548387096774
+	},
+	"normrank": {
+		"followers": 5867.0,
+		"mentions": 1358.0,
+		"RTin": 342.0
+	}
+}
+{
+	"_id": "39689218",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "mishacollins",
+	"url": "http://gishwhes.com",
+	"created_at": {
+		"$date": "2009-05-13T04:39:54.000Z"
+	},
+	"time_zone": "Tehran",
+	"tweets": {
+		"all": 4487.0,
+		"total": 7.0,
+		"RT": 1.0,
+		"original": 6.0
+	},
+	"followers": 2546131,
+	"location": "moron, mongolia",
+	"following": 88,
+	"favourites_count": 27,
+	"geo_enabled": true,
+	"id": "39689218",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1984.0,
+	"RTin": 14581.0,
+	"rank": {
+		"followers": 153.0,
+		"mentions": 138.0,
+		"RTin": 35.0
+	},
+	"norm": {
+		"mentions": 330.6666666666667,
+		"RTin": 2430.1666666666665
+	},
+	"normrank": {
+		"followers": 153.0,
+		"mentions": 132.0,
+		"RTin": 27.0
+	}
+}
+{
+	"_id": "48725618",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "Bey_Legion",
+	"url": "http://beyonce.com",
+	"created_at": {
+		"$date": "2009-06-19T14:53:39.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 25352.0,
+		"total": 43.0,
+		"RT": 7.0,
+		"original": 36.0
+	},
+	"followers": 158288,
+	"location": "Worldwide",
+	"following": 42,
+	"favourites_count": 10872,
+	"geo_enabled": false,
+	"id": "48725618",
+	"trump": false,
+	"clinton": true,
+	"mentions": 537.0,
+	"RTin": 14734.0,
+	"rank": {
+		"followers": 2730.0,
+		"mentions": 434.0,
+		"RTin": 34.0
+	},
+	"norm": {
+		"mentions": 14.916666666666666,
+		"RTin": 409.27777777777777
+	},
+	"normrank": {
+		"followers": 2730.0,
+		"mentions": 2344.0,
+		"RTin": 184.0
+	}
+}
+{
+	"_id": "771529979846766592",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "TallahForTrump",
+	"url": null,
+	"created_at": {
+		"$date": "2016-09-02T02:07:36.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 912.0,
+		"total": 19.0,
+		"RT": 11.0,
+		"original": 8.0
+	},
+	"followers": 37437,
+	"location": "Detroit, MI",
+	"following": 61,
+	"favourites_count": 1083,
+	"geo_enabled": true,
+	"id": "771529979846766592",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1595.0,
+	"RTin": 14824.0,
+	"rank": {
+		"followers": 9975.0,
+		"mentions": 171.0,
+		"RTin": 33.0
+	},
+	"norm": {
+		"mentions": 199.375,
+		"RTin": 1853.0
+	},
+	"normrank": {
+		"followers": 9975.0,
+		"mentions": 222.0,
+		"RTin": 39.0
+	}
+}
+{
+	"_id": "3600539122",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "NeilTurner_",
+	"url": "http://www.hillarys.press/conference",
+	"created_at": {
+		"$date": "2015-09-09T17:18:16.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 31379.0,
+		"total": 353.0,
+		"RT": 37.0,
+		"original": 316.0
+	},
+	"followers": 29708,
+	"location": "Mississippi, USA",
+	"following": 719,
+	"favourites_count": 29416,
+	"geo_enabled": true,
+	"id": "3600539122",
+	"clinton": true,
+	"trump": true,
+	"mentions": 4930.0,
+	"RTin": 14959.0,
+	"rank": {
+		"followers": 12189.0,
+		"mentions": 61.0,
+		"RTin": 32.0
+	},
+	"norm": {
+		"mentions": 15.60126582278481,
+		"RTin": 47.33860759493671
+	},
+	"normrank": {
+		"followers": 12189.0,
+		"mentions": 2255.0,
+		"RTin": 1504.0
+	}
+}
+{
+	"_id": "2887465954",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "Bikers4Trump",
+	"url": "http://www.Bikers4Trump.com",
+	"created_at": {
+		"$date": "2014-11-21T22:37:38.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 9415.0,
+		"total": 101.0,
+		"RT": 67.0,
+		"original": 34.0
+	},
+	"followers": 125656,
+	"location": "Las Vegas, NV",
+	"following": 97855,
+	"favourites_count": 19824,
+	"geo_enabled": false,
+	"id": "2887465954",
+	"clinton": true,
+	"trump": true,
+	"mentions": 2052.0,
+	"RTin": 15127.0,
+	"rank": {
+		"followers": 3419.0,
+		"mentions": 133.0,
+		"RTin": 31.0
+	},
+	"norm": {
+		"mentions": 60.35294117647059,
+		"RTin": 444.9117647058824
+	},
+	"normrank": {
+		"followers": 3419.0,
+		"mentions": 678.0,
+		"RTin": 174.0
+	}
+}
+{
+	"_id": "268414482",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "MileyCyrus",
+	"url": "http://mileycyrus.com",
+	"created_at": {
+		"$date": "2011-03-18T18:36:02.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 8262.0,
+		"total": 2.0,
+		"RT": 0.0,
+		"original": 2.0
+	},
+	"followers": 30974762,
+	"location": "@happyhippiefdn",
+	"following": 370,
+	"favourites_count": 82,
+	"geo_enabled": true,
+	"id": "268414482",
+	"trump": false,
+	"clinton": true,
+	"mentions": 1219.0,
+	"RTin": 16050.0,
+	"rank": {
+		"followers": 6.0,
+		"mentions": 222.0,
+		"RTin": 30.0
+	},
+	"norm": {
+		"mentions": 609.5,
+		"RTin": 8025.0
+	},
+	"normrank": {
+		"followers": 6.0,
+		"mentions": 72.0,
+		"RTin": 2.0
+	}
+}
+{
+	"_id": "794769772202393601",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "WDFx2EU8",
+	"url": null,
+	"created_at": {
+		"$date": "2016-11-05T05:14:14.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 11.0,
+		"total": 56.0,
+		"RT": 27.0,
+		"original": 29.0
+	},
+	"followers": 302,
+	"location": "Unicorn Mountain",
+	"following": 63,
+	"favourites_count": 7,
+	"geo_enabled": false,
+	"id": "794769772202393601",
+	"clinton": true,
+	"trump": true,
+	"mentions": 2459.0,
+	"RTin": 16062.0,
+	"rank": {
+		"followers": 632592.0,
+		"mentions": 109.0,
+		"RTin": 29.0
+	},
+	"norm": {
+		"mentions": 84.79310344827586,
+		"RTin": 553.8620689655172
+	},
+	"normrank": {
+		"followers": 632592.0,
+		"mentions": 493.0,
+		"RTin": 138.0
+	}
+}
+{
+	"_id": "489475164",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "ColMorrisDavis",
+	"url": null,
+	"created_at": {
+		"$date": "2012-02-11T15:28:44.000Z"
+	},
+	"time_zone": "Atlantic Time (Canada)",
+	"tweets": {
+		"all": 50572.0,
+		"total": 179.0,
+		"RT": 36.0,
+		"original": 143.0
+	},
+	"followers": 39989,
+	"location": "Washington, DC, area",
+	"following": 700,
+	"favourites_count": 22,
+	"geo_enabled": true,
+	"id": "489475164",
+	"clinton": true,
+	"trump": true,
+	"mentions": 2558.0,
+	"RTin": 16672.0,
+	"rank": {
+		"followers": 9471.0,
+		"mentions": 106.0,
+		"RTin": 28.0
+	},
+	"norm": {
+		"mentions": 17.888111888111887,
+		"RTin": 116.58741258741259
+	},
+	"normrank": {
+		"followers": 9471.0,
+		"mentions": 2034.0,
+		"RTin": 683.0
+	}
+}
+{
+	"_id": "1963986956",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "KyIoR3n",
+	"url": null,
+	"created_at": {
+		"$date": "2013-10-16T04:39:10.000Z"
+	},
+	"time_zone": "Central Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 6050.0,
+		"total": 5.0,
+		"RT": 0.0,
+		"original": 5.0
+	},
+	"followers": 452025,
+	"location": "Starkiller Base",
+	"following": 7,
+	"favourites_count": 27382,
+	"geo_enabled": false,
+	"id": "1963986956",
+	"clinton": false,
+	"trump": true,
+	"mentions": 127.0,
+	"RTin": 17143.0,
+	"rank": {
+		"followers": 1048.0,
+		"mentions": 1655.5,
+		"RTin": 27.0
+	},
+	"norm": {
+		"mentions": 25.4,
+		"RTin": 3428.6
+	},
+	"normrank": {
+		"followers": 1048.0,
+		"mentions": 10264.8125,
+		"RTin": 14.0
+	}
+}
+{
+	"_id": "25493304",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "zachhaller",
+	"url": "http://store.foundintown.com",
+	"created_at": {
+		"$date": "2009-03-20T12:06:53.000Z"
+	},
+	"time_zone": "Central Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 34159.0,
+		"total": 87.0,
+		"RT": 12.0,
+		"original": 75.0
+	},
+	"followers": 17854,
+	"location": "Seattle, Washington",
+	"following": 11583,
+	"favourites_count": 44986,
+	"geo_enabled": true,
+	"id": "25493304",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1706.0,
+	"RTin": 17624.0,
+	"rank": {
+		"followers": 19287.0,
+		"mentions": 160.0,
+		"RTin": 26.0
+	},
+	"norm": {
+		"mentions": 22.746666666666666,
+		"RTin": 234.98666666666668
+	},
+	"normrank": {
+		"followers": 19287.0,
+		"mentions": 1637.0,
+		"RTin": 336.0
+	}
+}
+{
+	"_id": "538467434",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "NadelParis",
+	"url": "https://www.youtube.com/watch?v=Wu8rcr9-8Xg",
+	"created_at": {
+		"$date": "2012-03-27T20:42:20.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 25746.0,
+		"total": 112.0,
+		"RT": 67.0,
+		"original": 45.0
+	},
+	"followers": 346114,
+	"location": "United States",
+	"following": 56894,
+	"favourites_count": 1381,
+	"geo_enabled": true,
+	"id": "538467434",
+	"clinton": true,
+	"trump": true,
+	"mentions": 90.0,
+	"RTin": 17934.0,
+	"rank": {
+		"followers": 1334.0,
+		"mentions": 2293.5,
+		"RTin": 25.0
+	},
+	"norm": {
+		"mentions": 2.0,
+		"RTin": 398.53333333333336
+	},
+	"normrank": {
+		"followers": 1334.0,
+		"mentions": 32428.15,
+		"RTin": 189.0
+	}
+}
+{
+	"_id": "113364160",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "JordanChariton",
+	"url": "http://www.JordanChariton.com",
+	"created_at": {
+		"$date": "2010-02-11T14:36:02.000Z"
+	},
+	"time_zone": "Quito",
+	"tweets": {
+		"all": 12512.0,
+		"total": 57.0,
+		"RT": 12.0,
+		"original": 45.0
+	},
+	"followers": 53615,
+	"location": "New York, NY",
+	"following": 486,
+	"favourites_count": 901,
+	"geo_enabled": true,
+	"id": "113364160",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1099.0,
+	"RTin": 18001.0,
+	"rank": {
+		"followers": 7309.0,
+		"mentions": 238.0,
+		"RTin": 24.0
+	},
+	"norm": {
+		"mentions": 24.42222222222222,
+		"RTin": 400.02222222222224
+	},
+	"normrank": {
+		"followers": 7309.0,
+		"mentions": 1542.0,
+		"RTin": 187.0
+	}
+}
+{
+	"_id": "216776631",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "BernieSanders",
+	"url": "https://BernieSanders.com/about",
+	"created_at": {
+		"$date": "2010-11-17T17:53:52.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 9924.0,
+		"total": 4.0,
+		"RT": 1.0,
+		"original": 3.0
+	},
+	"followers": 3851399,
+	"location": "Vermont",
+	"following": 1511,
+	"favourites_count": 970,
+	"geo_enabled": true,
+	"id": "216776631",
+	"clinton": true,
+	"trump": true,
+	"mentions": 18069.0,
+	"RTin": 19063.0,
+	"rank": {
+		"followers": 98.0,
+		"mentions": 16.0,
+		"RTin": 23.0
+	},
+	"norm": {
+		"mentions": 6023.0,
+		"RTin": 6354.333333333333
+	},
+	"normrank": {
+		"followers": 98.0,
+		"mentions": 8.0,
+		"RTin": 4.0
+	}
+}
+{
+	"_id": "779739206339928064",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "WDFx2EU7",
+	"url": null,
+	"created_at": {
+		"$date": "2016-09-24T17:48:08.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 15947.0,
+		"total": 104.0,
+		"RT": 41.0,
+		"original": 63.0
+	},
+	"followers": 85634,
+	"location": "Palo Alto, CA",
+	"following": 495,
+	"favourites_count": 6965,
+	"geo_enabled": true,
+	"id": "779739206339928064",
+	"clinton": true,
+	"trump": true,
+	"mentions": 5064.0,
+	"RTin": 19234.0,
+	"rank": {
+		"followers": 4918.0,
+		"mentions": 55.0,
+		"RTin": 22.0
+	},
+	"norm": {
+		"mentions": 80.38095238095238,
+		"RTin": 305.3015873015873
+	},
+	"normrank": {
+		"followers": 4918.0,
+		"mentions": 515.0,
+		"RTin": 258.0
+	}
+}
+{
+	"_id": "39344374",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "DonaldJTrumpJr",
+	"url": "http://Trump.com",
+	"created_at": {
+		"$date": "2009-05-11T21:18:33.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 16772.0,
+		"total": 75.0,
+		"RT": 67.0,
+		"original": 8.0
+	},
+	"followers": 756489,
+	"location": null,
+	"following": 1056,
+	"favourites_count": 5212,
+	"geo_enabled": false,
+	"id": "39344374",
+	"clinton": true,
+	"trump": true,
+	"mentions": 34980.0,
+	"RTin": 19533.0,
+	"rank": {
+		"followers": 661.0,
+		"mentions": 8.0,
+		"RTin": 21.0
+	},
+	"norm": {
+		"mentions": 4372.5,
+		"RTin": 2441.625
+	},
+	"normrank": {
+		"followers": 661.0,
+		"mentions": 13.0,
+		"RTin": 25.0
+	}
+}
+{
+	"_id": "87761810",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "dougmillsnyt",
+	"url": null,
+	"created_at": {
+		"$date": "2009-11-05T19:25:12.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 1456.0,
+		"total": 39.0,
+		"RT": 2.0,
+		"original": 37.0
+	},
+	"followers": 23753,
+	"location": "Washington, DC",
+	"following": 710,
+	"favourites_count": 2198,
+	"geo_enabled": true,
+	"id": "87761810",
+	"clinton": true,
+	"trump": true,
+	"mentions": 4743.0,
+	"RTin": 19839.0,
+	"rank": {
+		"followers": 14799.0,
+		"mentions": 64.0,
+		"RTin": 20.0
+	},
+	"norm": {
+		"mentions": 128.1891891891892,
+		"RTin": 536.1891891891892
+	},
+	"normrank": {
+		"followers": 14799.0,
+		"mentions": 350.0,
+		"RTin": 143.0
+	}
+}
+{
+	"_id": "2908170952",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "DiamondandSilk",
+	"url": "http://www.DiamondandSilk.com",
+	"created_at": {
+		"$date": "2014-12-06T18:49:06.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 3479.0,
+		"total": 13.0,
+		"RT": 6.0,
+		"original": 7.0
+	},
+	"followers": 165169,
+	"location": "United States",
+	"following": 41,
+	"favourites_count": 1106,
+	"geo_enabled": false,
+	"id": "2908170952",
+	"clinton": true,
+	"trump": true,
+	"mentions": 5544.0,
+	"RTin": 22129.0,
+	"rank": {
+		"followers": 2632.0,
+		"mentions": 50.0,
+		"RTin": 19.0
+	},
+	"norm": {
+		"mentions": 792.0,
+		"RTin": 3161.285714285714
+	},
+	"normrank": {
+		"followers": 2632.0,
+		"mentions": 54.0,
+		"RTin": 17.0
+	}
+}
+{
+	"_id": "119099353",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "Harlan",
+	"url": "http://HarlanHill.com",
+	"created_at": {
+		"$date": "2010-03-02T17:30:37.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 5317.0,
+		"total": 49.0,
+		"RT": 29.0,
+		"original": 20.0
+	},
+	"followers": 84447,
+	"location": "NYC // DC // Charleston, SC",
+	"following": 39362,
+	"favourites_count": 5880,
+	"geo_enabled": true,
+	"id": "119099353",
+	"clinton": true,
+	"trump": true,
+	"mentions": 3686.0,
+	"RTin": 22138.0,
+	"rank": {
+		"followers": 4970.0,
+		"mentions": 79.0,
+		"RTin": 18.0
+	},
+	"norm": {
+		"mentions": 184.3,
+		"RTin": 1106.9
+	},
+	"normrank": {
+		"followers": 4970.0,
+		"mentions": 245.0,
+		"RTin": 69.0
+	}
+}
+{
+	"_id": "14230524",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "ladygaga",
+	"url": "http://www.ladygaga.com",
+	"created_at": {
+		"$date": "2008-03-26T22:37:48.000Z"
+	},
+	"time_zone": "Quito",
+	"tweets": {
+		"all": 7937.0,
+		"total": 2.0,
+		"RT": 0.0,
+		"original": 2.0
+	},
+	"followers": 64298611,
+	"location": null,
+	"following": 130454,
+	"favourites_count": 1160,
+	"geo_enabled": false,
+	"id": "14230524",
+	"clinton": true,
+	"trump": true,
+	"mentions": 5812.0,
+	"RTin": 22304.0,
+	"rank": {
+		"followers": 2.0,
+		"mentions": 47.0,
+		"RTin": 17.0
+	},
+	"norm": {
+		"mentions": 2906.0,
+		"RTin": 11152.0
+	},
+	"normrank": {
+		"followers": 2.0,
+		"mentions": 17.0,
+		"RTin": 1.0
+	}
+}
+{
+	"_id": "774074669230071809",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "VoteTrumpPics",
+	"url": "http://bit.ly/2cH0mrg",
+	"created_at": {
+		"$date": "2016-09-09T02:39:17.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 5781.0,
+		"total": 229.0,
+		"RT": 200.0,
+		"original": 29.0
+	},
+	"followers": 10219,
+	"location": null,
+	"following": 5616,
+	"favourites_count": 1552,
+	"geo_enabled": false,
+	"id": "774074669230071809",
+	"clinton": true,
+	"trump": true,
+	"mentions": 1346.0,
+	"RTin": 22455.0,
+	"rank": {
+		"followers": 32647.5,
+		"mentions": 200.0,
+		"RTin": 16.0
+	},
+	"norm": {
+		"mentions": 46.41379310344828,
+		"RTin": 774.3103448275862
+	},
+	"normrank": {
+		"followers": 32647.5,
+		"mentions": 870.0,
+		"RTin": 97.0
+	}
+}
+{
+	"_id": "169272033",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "VigilanteArtist",
+	"url": "http://www.alejandrovigilante.com",
+	"created_at": {
+		"$date": "2010-07-21T23:30:31.000Z"
+	},
+	"time_zone": "Quito",
+	"tweets": {
+		"all": 19168.0,
+		"total": 31.0,
+		"RT": 26.0,
+		"original": 5.0
+	},
+	"followers": 3534868,
+	"location": "Miami,Florida",
+	"following": 11265,
+	"favourites_count": 39336,
+	"geo_enabled": true,
+	"id": "169272033",
+	"clinton": true,
+	"trump": true,
+	"mentions": 58.0,
+	"RTin": 26017.0,
+	"rank": {
+		"followers": 107.0,
+		"mentions": 3562.0,
+		"RTin": 15.0
+	},
+	"norm": {
+		"mentions": 11.6,
+		"RTin": 5203.4
+	},
+	"normrank": {
+		"followers": 107.0,
+		"mentions": 70504.80327868853,
+		"RTin": 8.0
+	}
+}
+{
+	"_id": "4761064634",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "Darren32895836",
+	"url": null,
+	"created_at": {
+		"$date": "2016-01-15T03:32:52.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 41082.0,
+		"total": 454.0,
+		"RT": 349.0,
+		"original": 105.0
+	},
+	"followers": 59974,
+	"location": null,
+	"following": 40538,
+	"favourites_count": 50487,
+	"geo_enabled": true,
+	"id": "4761064634",
+	"clinton": true,
+	"trump": true,
+	"mentions": 2907.0,
+	"RTin": 28587.0,
+	"rank": {
+		"followers": 6593.0,
+		"mentions": 92.0,
+		"RTin": 14.0
+	},
+	"norm": {
+		"mentions": 27.685714285714287,
+		"RTin": 272.25714285714287
+	},
+	"normrank": {
+		"followers": 6593.0,
+		"mentions": 1399.0,
+		"RTin": 295.0
+	}
+}
+{
+	"_id": "240454812",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "GenFlynn",
+	"url": "http://www.michaeltflynn.com",
+	"created_at": {
+		"$date": "2011-01-19T23:53:00.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 1708.0,
+		"total": 21.0,
+		"RT": 0.0,
+		"original": 21.0
+	},
+	"followers": 49438,
+	"location": "GLOBAL",
+	"following": 2125,
+	"favourites_count": 273,
+	"geo_enabled": false,
+	"id": "240454812",
+	"clinton": false,
+	"trump": true,
+	"mentions": 4996.0,
+	"RTin": 29339.0,
+	"rank": {
+		"followers": 7850.0,
+		"mentions": 58.0,
+		"RTin": 13.0
+	},
+	"norm": {
+		"mentions": 237.9047619047619,
+		"RTin": 1397.095238095238
+	},
+	"normrank": {
+		"followers": 7850.0,
+		"mentions": 186.0,
+		"RTin": 55.0
+	}
+}
+{
+	"_id": "9300262",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "politico",
+	"url": "http://www.politico.com",
+	"created_at": {
+		"$date": "2007-10-08T00:29:38.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 193789.0,
+		"total": 365.0,
+		"RT": 16.0,
+		"original": 349.0
+	},
+	"followers": 2117345,
+	"location": "Washington, D.C.",
+	"following": 1233,
+	"favourites_count": 8,
+	"geo_enabled": true,
+	"id": "9300262",
+	"clinton": true,
+	"trump": true,
+	"mentions": 23975.0,
+	"RTin": 29926.0,
+	"rank": {
+		"followers": 213.0,
+		"mentions": 12.0,
+		"RTin": 12.0
+	},
+	"norm": {
+		"mentions": 68.69627507163324,
+		"RTin": 85.74785100286533
+	},
+	"normrank": {
+		"followers": 213.0,
+		"mentions": 602.0,
+		"RTin": 890.0
+	}
+}
+{
+	"_id": "56413858",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "FoxBusiness",
+	"url": "http://www.foxbusiness.com",
+	"created_at": {
+		"$date": "2009-07-13T16:18:27.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 102385.0,
+		"total": 271.0,
+		"RT": 8.0,
+		"original": 263.0
+	},
+	"followers": 569699,
+	"location": "New York, NY",
+	"following": 402,
+	"favourites_count": 0,
+	"geo_enabled": false,
+	"id": "56413858",
+	"clinton": true,
+	"trump": true,
+	"mentions": 10049.0,
+	"RTin": 30028.0,
+	"rank": {
+		"followers": 840.0,
+		"mentions": 29.0,
+		"RTin": 11.0
+	},
+	"norm": {
+		"mentions": 38.20912547528517,
+		"RTin": 114.17490494296578
+	},
+	"normrank": {
+		"followers": 840.0,
+		"mentions": 1037.0,
+		"RTin": 699.0
+	}
+}
+{
+	"_id": "26487169",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "LouDobbs",
+	"url": "http://loudobbs.com",
+	"created_at": {
+		"$date": "2009-03-25T12:39:59.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 24036.0,
+		"total": 34.0,
+		"RT": 4.0,
+		"original": 30.0
+	},
+	"followers": 876572,
+	"location": "New York, NY",
+	"following": 2455,
+	"favourites_count": 3981,
+	"geo_enabled": true,
+	"id": "26487169",
+	"clinton": true,
+	"trump": true,
+	"mentions": 14038.0,
+	"RTin": 33509.0,
+	"rank": {
+		"followers": 565.0,
+		"mentions": 22.0,
+		"RTin": 10.0
+	},
+	"norm": {
+		"mentions": 467.93333333333334,
+		"RTin": 1116.9666666666667
+	},
+	"normrank": {
+		"followers": 565.0,
+		"mentions": 92.0,
+		"RTin": 68.0
+	}
+}
+{
+	"_id": "3974665634",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "USAneedsTRUMP",
+	"url": null,
+	"created_at": {
+		"$date": "2015-10-22T00:43:18.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 48598.0,
+		"total": 1998.0,
+		"RT": 61.0,
+		"original": 1937.0
+	},
+	"followers": 32965,
+	"location": null,
+	"following": 1818,
+	"favourites_count": 29985,
+	"geo_enabled": false,
+	"id": "3974665634",
+	"clinton": true,
+	"trump": true,
+	"mentions": 7682.0,
+	"RTin": 34196.0,
+	"rank": {
+		"followers": 11077.5,
+		"mentions": 37.0,
+		"RTin": 9.0
+	},
+	"norm": {
+		"mentions": 3.9659266907589057,
+		"RTin": 17.654104284976768
+	},
+	"normrank": {
+		"followers": 11077.5,
+		"mentions": 8730.0,
+		"RTin": 3681.0
+	}
+}
+{
+	"_id": "16989178",
+	"lang": "en",
+	"verified": false,
+	"screen_name": "JamesOKeefeIII",
+	"url": "http://www.projectveritas.com",
+	"created_at": {
+		"$date": "2008-10-27T00:38:24.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 6749.0,
+		"total": 24.0,
+		"RT": 12.0,
+		"original": 12.0
+	},
+	"followers": 206668,
+	"location": "New York",
+	"following": 1028,
+	"favourites_count": 1177,
+	"geo_enabled": false,
+	"id": "16989178",
+	"clinton": true,
+	"trump": true,
+	"mentions": 5043.0,
+	"RTin": 37932.0,
+	"rank": {
+		"followers": 2158.0,
+		"mentions": 56.0,
+		"RTin": 8.0
+	},
+	"norm": {
+		"mentions": 420.25,
+		"RTin": 3161.0
+	},
+	"normrank": {
+		"followers": 2158.0,
+		"mentions": 103.0,
+		"RTin": 18.0
+	}
+}
+{
+	"_id": "61734492",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "Fahrenthold",
+	"url": "http://www.washingtonpost.com",
+	"created_at": {
+		"$date": "2009-07-31T09:29:37.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 15023.0,
+		"total": 134.0,
+		"RT": 15.0,
+		"original": 119.0
+	},
+	"followers": 169062,
+	"location": "Washington, DC",
+	"following": 2290,
+	"favourites_count": 2941,
+	"geo_enabled": false,
+	"id": "61734492",
+	"clinton": false,
+	"trump": true,
+	"mentions": 5681.0,
+	"RTin": 39500.0,
+	"rank": {
+		"followers": 2580.0,
+		"mentions": 49.0,
+		"RTin": 7.0
+	},
+	"norm": {
+		"mentions": 47.739495798319325,
+		"RTin": 331.93277310924367
+	},
+	"normrank": {
+		"followers": 2580.0,
+		"mentions": 847.0,
+		"RTin": 237.0
+	}
+}
+{
+	"_id": "22203756",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "mike_pence",
+	"url": "http://www.DonaldJTrump.com",
+	"created_at": {
+		"$date": "2009-02-27T23:04:51.000Z"
+	},
+	"time_zone": "Central Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 5024.0,
+		"total": 22.0,
+		"RT": 4.0,
+		"original": 18.0
+	},
+	"followers": 469451,
+	"location": null,
+	"following": 1201,
+	"favourites_count": 745,
+	"geo_enabled": true,
+	"id": "22203756",
+	"clinton": true,
+	"trump": true,
+	"mentions": 41962.0,
+	"RTin": 41195.0,
+	"rank": {
+		"followers": 1002.0,
+		"mentions": 6.0,
+		"RTin": 6.0
+	},
+	"norm": {
+		"mentions": 2331.222222222222,
+		"RTin": 2288.6111111111113
+	},
+	"normrank": {
+		"followers": 1002.0,
+		"mentions": 24.0,
+		"RTin": 30.0
+	}
+}
+{
+	"_id": "471672239",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "KellyannePolls",
+	"url": "http://DonaldJTrump.com",
+	"created_at": {
+		"$date": "2012-01-23T04:14:28.000Z"
+	},
+	"time_zone": null,
+	"tweets": {
+		"all": 6055.0,
+		"total": 18.0,
+		"RT": 2.0,
+		"original": 16.0
+	},
+	"followers": 253918,
+	"location": null,
+	"following": 571,
+	"favourites_count": 1550,
+	"geo_enabled": true,
+	"id": "471672239",
+	"clinton": true,
+	"trump": true,
+	"mentions": 51719.0,
+	"RTin": 44158.0,
+	"rank": {
+		"followers": 1783.0,
+		"mentions": 5.0,
+		"RTin": 5.0
+	},
+	"norm": {
+		"mentions": 3232.4375,
+		"RTin": 2759.875
+	},
+	"normrank": {
+		"followers": 1783.0,
+		"mentions": 15.0,
+		"RTin": 20.0
+	}
+}
+{
+	"_id": "50769180",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "IngrahamAngle",
+	"url": "http://www.lauraingraham.com",
+	"created_at": {
+		"$date": "2009-06-25T21:03:25.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 27528.0,
+		"total": 66.0,
+		"RT": 7.0,
+		"original": 59.0
+	},
+	"followers": 1032417,
+	"location": "DC",
+	"following": 302,
+	"favourites_count": 78,
+	"geo_enabled": true,
+	"id": "50769180",
+	"clinton": true,
+	"trump": true,
+	"mentions": 17409.0,
+	"RTin": 75365.0,
+	"rank": {
+		"followers": 480.0,
+		"mentions": 17.0,
+		"RTin": 4.0
+	},
+	"norm": {
+		"mentions": 295.06779661016947,
+		"RTin": 1277.3728813559321
+	},
+	"normrank": {
+		"followers": 480.0,
+		"mentions": 150.0,
+		"RTin": 61.0
+	}
+}
+{
+	"_id": "620571475",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "DanScavino",
+	"url": "http://www.DonaldJTrump.com",
+	"created_at": {
+		"$date": "2012-06-28T02:45:39.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 9485.0,
+		"total": 51.0,
+		"RT": 3.0,
+		"original": 48.0
+	},
+	"followers": 189793,
+	"location": "Campaign Trail, USA",
+	"following": 115,
+	"favourites_count": 2907,
+	"geo_enabled": true,
+	"id": "620571475",
+	"clinton": true,
+	"trump": true,
+	"mentions": 20080.0,
+	"RTin": 87760.0,
+	"rank": {
+		"followers": 2353.0,
+		"mentions": 14.0,
+		"RTin": 3.0
+	},
+	"norm": {
+		"mentions": 418.3333333333333,
+		"RTin": 1828.3333333333333
+	},
+	"normrank": {
+		"followers": 2353.0,
+		"mentions": 104.0,
+		"RTin": 40.0
+	}
+}
+{
+	"_id": "729676086632656900",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "TeamTrump",
+	"url": "http://www.DonaldJTrump.com",
+	"created_at": {
+		"$date": "2016-05-09T14:15:10.000Z"
+	},
+	"time_zone": "Pacific Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 8168.0,
+		"total": 302.0,
+		"RT": 130.0,
+		"original": 172.0
+	},
+	"followers": 211452,
+	"location": "USA",
+	"following": 24,
+	"favourites_count": 1416,
+	"geo_enabled": true,
+	"id": "729676086632656900",
+	"clinton": true,
+	"trump": true,
+	"mentions": 26861.0,
+	"RTin": 106841.0,
+	"rank": {
+		"followers": 2111.0,
+		"mentions": 9.0,
+		"RTin": 2.0
+	},
+	"norm": {
+		"mentions": 156.16860465116278,
+		"RTin": 621.1686046511628
+	},
+	"normrank": {
+		"followers": 2111.0,
+		"mentions": 287.0,
+		"RTin": 119.0
+	}
+}
+{
+	"_id": "1367531",
+	"lang": "en",
+	"verified": true,
+	"screen_name": "FoxNews",
+	"url": "http://www.foxnews.com",
+	"created_at": {
+		"$date": "2007-03-17T19:01:26.000Z"
+	},
+	"time_zone": "Eastern Time (US \u0026 Canada)",
+	"tweets": {
+		"all": 277388.0,
+		"total": 471.0,
+		"RT": 19.0,
+		"original": 452.0
+	},
+	"followers": 11398006,
+	"location": "U.S.A.",
+	"following": 407,
+	"favourites_count": 0,
+	"geo_enabled": false,
+	"id": "1367531",
+	"clinton": true,
+	"trump": true,
+	"mentions": 124770.0,
+	"RTin": 235286.0,
+	"rank": {
+		"followers": 18.0,
+		"mentions": 3.0,
+		"RTin": 1.0
+	},
+	"norm": {
+		"mentions": 276.03982300884957,
+		"RTin": 520.5442477876106
+	},
+	"normrank": {
+		"followers": 18.0,
+		"mentions": 159.0,
+		"RTin": 150.0
+	}
+}

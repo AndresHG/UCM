@@ -1,0 +1,39 @@
+Bases de datos NoSQL - práctica 2
+
+#Nombre1: Andrés Herranz González
+#Nombre2: Ivan Alba Vazquez
+#Nombre3: Luis Muñoz María
+
+#Observaciones:
+
+#P1 Consulta:
+db.minitweet.find({mentions:{$regex:"HillaryClinton"}},{}).count()
+
+#P2 Consulta:
+db.minitweet.find({mentions:{$regex:"real"}},{}).count()
+
+#P3 Consulta:
+db.minitweet.find({mentions:{$size:2}})
+
+#P4 Consulta:
+db.minitweet.find({'mentions.2':{$exists:1}}).pretty()
+
+#P5 Consulta:
+db.minitweet.find({text:{$regex:".*yps.*"}},{})
+
+#P6 Consulta:
+db.libros.find({precio:{$gte:10, $lte:20}, 'opiniones.puntos' :{$gte:8}}, {titulo:1,_id:0})
+
+#P7 Consulta:
+db.libros.find({$and:[{'opiniones.usuario': 'herminia'}, {'opiniones.comentario' :{$regex: ".*"}}]}, {titulo:1,_id:0})
+
+
+#P8 Consulta:
+db.libros.find( {opiniones:{$elemMatch:{usuario:'herminia', puntos:{$gt:5}}}}, {titulo:1,_id:0})
+
+#P9 Consulta:
+db.libros.find( {'opiniones.0.usuario': 'bertoldo'}, {titulo:1, _id:0} )
+
+#P10 Consulta:
+db.minitweet.find({$and:[{mentions:{$in:["HillaryClinton"]}},{mentions:{$nin:["FLOTUS"]}}]},{}).count()
+

@@ -1,0 +1,15 @@
+db.tutuve.drop();
+db.tutuve.insert([{_id: 1, nick: "VertolduX", suscritos:545, old:true,
+                 videos:[{titulo:"Minecraft",vistas:2000,bloqueado: false},
+                         {item:"bromón",vistas:4000,bloqueado: true}]},
+ {_id: 2, nick: "HerminiettaWorld", suscritos:600,
+                 videos:[{titulo:"Un crack!",vistas:1600,bloqueado: false},
+                         {titulo:"Ya veremos",vistas:250,bloqueado: false}]},
+ {_id: 3, nick: "CalixtaRex", suscritos:400, old: true,
+                videos:[{titulo:"En L.A.",vistas:400,bloqueado: false},
+                        {titulo:"N.Y. rules",vistas:600,bloqueado: false}, 
+                        {titulo:"Washington",vistas:700,bloqueado: false} ]},
+ {_id: 4, nick: "CetoGames", suscritos: 300,
+                videos:[{titulo:"Ghost Recon",vistas:40,bloqueado: false},
+                        {titulo:"El Señor de los Granillos",vistas:650,bloqueado: false}, 
+                        {titulo:"Killing Killers",vistas:600,bloqueado: true} ]} ]);

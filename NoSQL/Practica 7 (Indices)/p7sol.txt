@@ -1,0 +1,50 @@
+
+Práctica 7 -  NoSQL - Solución
+Nombre 1: Andrés Herranz Gonzalez
+Nombre 2: Ivan Alba Vazquez
+Nombre 3: Luis Muñoz Maria
+Observaciones:
+
+
+Respuestas
+
+P1#Consulta: 
+db.tweet.find({text:{$regex:"lies", $options:"i"}}).count()
+
+P2#Instrucción que crea el índice: 
+db.tweet.createIndex({text : "text"}, "itext")
+
+P3#Consulta: 
+db.tweet.find({$text : {$search : "lies"}}).count()
+
+P4#Consulta:
+db.tweet.find({$text : {$search : "lies"}, text: {$regex: "^((?!lies).)*$"}}).count()
+
+5#Instrucción índice 1: db.user.createIndex({mentions:-1}, "mendown")
+5#Instrucción índice 2: db.user.createIndex({followers:1}, "follup", {unique:1})
+
+
+6#Consulta:
+db.user.find({followers:{$gt:30}},{followers:1,mentions:1,_id:0})
+
+P7#
+Instrucción: db.user.explain("executionStats").find({followers:{$gt:30}},{followers:1,mentions:1,_id:0})
+Índices (nombres de los índices separados por comas (o “ninguno”)): follup
+Documentos (el total de  documentos accedidos): 141
+Claves (total de claves de índice a las que se han accedido): 141
+
+P8#
+Índices: db.user.createIndex({followers:1,mentions:-1},"follmen")
+Documentos: 0
+Claves: 141
+Explicación: el anterior aparece rechazado y el nuevo aparece en wininPlan. Además el nuevo índice utiliza las dos claves, mentions y followers. Como tiene en la clave los dos atributos que tiene que comprobar, no necesita acceder al documento.
+
+
+P9#
+Índices: ninguno
+Explicación: porque va documento a documento
+Rechazados: []
+
+P10#
+Más eficiente (a/b/ninguna): b	
+Explicación: tal y como vemos en las exectionStats tarda menos tiempo en ejecutarse y por tanto es más eficiente. b: executionTimeMillis" : 0; a: executionTimeMillis" : 1. 

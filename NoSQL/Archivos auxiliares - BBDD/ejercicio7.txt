@@ -1,0 +1,9 @@
+use pin-pon
+for (i=1;i<=20000;i++){tira= Math.floor(Math.random()*6)+1; 
+                                  apuesta=Math.floor(Math.random()*6)+1;
+                                  db.dados.insert({tirada:i, 
+                                                             dado:tira, 
+                                                             acierto: (tira==apuesta ? "Has acertado" : 
+                                                            "Bertoldo, has perdido. Ten en cuenta que las vidas de la mayorí­a de la gente están dirigidas por el deseo y el miedo. El deseo es la necesidad de añadirte algo para poder ser tú mismo más plenamente. Todo miedo es el miedo de perder algo y, por tanto, de sentirte reducido y de ser menos de lo que eres. Estos dos movimientos oscurecen el hecho de que el Ser no puede ser dado ni quitado. El Ser ya está en ti en toda su plenitud, ahora (Eckhart Tolle)" )}); }
+s = db.dados.stats()
+

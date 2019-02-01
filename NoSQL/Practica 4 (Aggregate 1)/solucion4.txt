@@ -1,0 +1,33 @@
+Bases de datos NoSQL - práctica 4
+
+#Nombre1: Andrés Herranz González
+#Nombre2: Iván Alba Vázquez
+#Nombre3: Luis Muñoz María
+
+#Observaciones:
+
+#P1 Consulta:
+db.tweet.aggregate([{$group:{"_id" : "$user.screen", total:{"$sum": 1}}}])
+
+#P2 Consulta:
+db.tweet.aggregate([{$group:{"_id" : "$user.screen", total:{"$sum": 1}}} ,{$sort: {total : -1}}])
+
+#P3 Consulta:
+db.user.aggregate([{$group:{"_id" : 1, media:{"$avg": "$followers"}}}])
+
+#P4 Consulta:
+db.tweet.aggregate([{$group:{"_id" : "$user.screen", total:{"$sum": 1}}},  {$group: { "_id":1, media:{"$avg": "$total"}}} ])
+
+#P5 Consulta:
+
+#P6 Consulta:
+db.user.aggregate([{$group:{"_id" : "1", zona:{"$addToSet": "$time_zone"}}}])
+
+#P7 Consulta:
+
+#P8 Consulta:
+
+#P9 Consulta:
+
+#P10 Consulta:
+

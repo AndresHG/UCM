@@ -1,0 +1,60 @@
+﻿
+Práctica 8 -  NoSQL - Solución
+Nombre 1: Andrés Herranz Gonález
+Nombre 2: Luis Muñoz María
+Nombre 3: iván Alba Vazquez
+Observaciones:
+
+
+Respuestas
+
+1#Instrucciones:
+mongod --port 27001 --replSet practReplica1009 --dbpath ./data1 --logappend --oplogSize 50
+
+mongod --port 27002 --replSet practReplica1009 --dbpath ./data2 --logappend --oplogSize 50
+
+mongod --port 27003 --replSet practReplica1009 --dbpath ./data3 --logappend --oplogSize 50
+1#Configuración:
+config = {
+_id: "practReplica1009",
+members: [ {_id:0, host:hostname()+":27001" },
+{_id:1, host:hostname()+":27002" },
+{_id:2, host:hostname()+":27003" }]}
+
+2#Indicar el comando en shell: rs.status()
+2#parte de la respuesta que muestra esta información en shell: "_id" : 2,
+			"name" : "andres-pc:27003",
+			"health" : 0,
+			"state" : 8,
+			"stateStr" : "(not reachable/healthy)",
+2#Indicar el comando en linux: lsof -iTCP -sTCP:LISTEN | grep mongo
+2#parte de la respuesta que muestra esta información en linux:
+mongod  3185 andres    6u  IPv4  36779      0t0  TCP *:27001 (LISTEN)
+mongod  3224 andres    6u  IPv4  41312      0t0  TCP *:27002 (LISTEN)
+es decir, no aparece en la lista
+ 
+
+3#¿por qué se obtiene el resultado que se puede ver como respuesta? (una frase): 
+Tras 1.5 segundos no se logra asegurar la escritura en los tres servidores ya que el 27003 está caido
+
+#4 ¿Se puede ver desde alguno la colección tururu? 
+Si ya que al desaparecer el primerio, otro se pone como primario y desde ese podemos ver los datos
+#4 ¿Está completa? 
+Si
+
+#5 ¿Se puede ver la colección directamente tururu de la base de datos pruebas desde 27001?
+No
+#5 ¿En caso negativo, qué hay que hacer?
+rs.slaveOk()
+
+#6 Instrucción:
+db.tururu.find().readPref("secondaryPreferred")
+
+#7 Instrucción:
+rs.add(hostname()+":27004")
+
+#8 Secuencia de instrucciones:
+rs.stepDown()
+rs.remove(hostname()+":27001")
+
+
